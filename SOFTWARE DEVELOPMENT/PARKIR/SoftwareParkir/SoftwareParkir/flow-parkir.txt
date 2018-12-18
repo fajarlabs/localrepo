@@ -1,0 +1,14 @@
+# PINTU MASUK
+1.) vld sensor 1 motor masuk, lalu bunyi selamat datang
+2.) tekan tiket parkir, cetak parkir thermal printer 
+    atau tekan tab card 125khz 
+    sekaligus membuka palang 
+    jika ada kamera sekaligus mengambil gambar
+3.) vld sensor 2 tunggu status 1 ke 0 lalu tutup
+4.) Transaksi mulai kembali
+
+# PINTU KELUAR
+1.) Scan barcode di aplikasi
+2.) Setelah transaksi sukses, buka palang keluar
+3.) Motor setelah injak vld keluar tunggu 3 detik palang tertutup kembali
+4.) Transaksi mulai kembali

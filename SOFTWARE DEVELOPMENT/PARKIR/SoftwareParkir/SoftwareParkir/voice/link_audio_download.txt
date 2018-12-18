@@ -1,0 +1,4 @@
+http://translate.google.com/translate_tts?tl=id&q="Selamat Datang"&client=tw-ob&ttsspeed=1
+
+Lalu ganti tulisan selamat datang dengan kalimat yang ingin digunakan. ttsspeed=1 kurang dari 1 akan lambat suaranya
+tekan CTRL+S untuk menyimpan hasilnya.

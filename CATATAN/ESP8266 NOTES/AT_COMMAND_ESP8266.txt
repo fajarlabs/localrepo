@@ -1,0 +1,89 @@
+﻿# perintah untuk reset dan mengubah settingan menjadi mode default
+AT+RESTORE
+
+# perintah untuk reset tapi tak mengubah mode setting
+AT+RST
+
+# perintah untuk masuk mode ESP-01(1M)、ESP-12F(4M) module.
+AT+CWMODE=3
+Keterangan :
+1 : Station mode
+2 : Access Point Mode
+3 : Both Mode
+
+# SoftwareSerial isn't capable of 115200 baud rate (despite "allowing" this as a setting). Some reports suggest as high as 57600 is workable -> https://arduino.stackexchange.com/questions/18575/send-at-commands-to-esp8266-from-arduino-uno-via-a-softwareserial-port
+AT+IPR=9600
+# atau gunakan seperti dibawah ini
+AT+CIOBAUD=9600
+
+# perintah untuk melihat daftar akses point (AP) yang ada disekitar
+AT+CWLAP
+
+# perintah untuk melihat versi module
+AT+GMR
+
+# perintah untuk connect ke access pointer (AP)
+AT+CWJAP="namawifi","passwordwifi"
+AT+CWJAP="INFINET","satuduatiga"
+
+# perintah untuk mengecek IP Address
+AT+CIFSR
+
+# perintah untuk membuat access point
+AT+CWSAP="namahotspot","password",1,2
+
+# perintah untuk disconnect access pointer / wifi
+AT+CWQAP
+
+# perintah untuk connect UDP
+AT+CIPSTART="TCP","IP",PORT"
+AT+CIPSTART="TCP","reqres.in",80
+
+# perintah untuk requests ke server
+AT+CIPSEND="IP REQUEST GET"
+AT+CIPSEND=81
+GET /todos/1\r\nHTTP/1.1\r\nHost: jsonplaceholder.typicode.com/\r\nAccept: */*\r\n
+
+# perintah untuk close koneksi UDP
+AT+CIPCLOSE
+
+# perintah untuk PING, pastikan sudah terkoneksi dengan wifi
+AT+PING="nama website / ip"
+
+
+#===================================================================
+# BASIC 
+#===================================================================
+AT
+AT+RST
+AT+GMR
+AT+GSLP
+ATE
+#===================================================================
+# WIFI LAYER 
+#===================================================================
+AT+CWMODE
+AT+CWJAP
+AT+CWLAP
+AT+CWQAP
+AT+CWSAP
+AT+CWLIF
+AT+CWDHCP
+AT+CIPSTAMAC
+AT+CIPAPMAC
+AT+CIPSTA
+AT+CIPAP
+#===================================================================
+# TCPIP Layer LAYER 
+#===================================================================
+AT+CIPSTATUS
+AT+CIPSTART
+AT+CIPSEND
+AT+CIPCLOSE
+AT+CIFSR
+AT+CIPMUX
+AT+CIPSERVER
+AT+CIPMODE
+AT+CIPSTO
+AT+CIUPDATE
++IPD

@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for IOT",
+  "main": "app.js",
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.8",
+    "mqtt-server": "^0.1.0",
+    "tls": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "mosca"
+  ],
+  "author": "fajarlabs",
+  "license": "ISC"
+}

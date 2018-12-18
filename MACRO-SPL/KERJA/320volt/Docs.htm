@@ -1,0 +1,2432 @@
+<!DOCTYPE html>
+<html lang="tr-TR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><!--[if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]--><meta name="description" content="PCB Çizimi için sprint layout pcb programını kullanıyorum bir ara özel bir makro lazım oldu her zaman olduğu gibi önce google üzerinde araştırayım">
+		<meta name="robots" content="index,follow">
+<title>Sprint Layout Makro Arşivim – Elektronik Devreler Projeler</title>
+<link rel="canonical" href="Docs_files/a_004.htm"><link rel="prev" title="AVR910 USB AVR Programlayıcı (PonyProg)" href="http://320volt.com/avr910-usb-avr-programlayici-ponyprog/">
+<link rel="next" title="PIC16F628A L297 L298 ile Step Motor Sürücü" href="http://320volt.com/pic16f628a-l297-l298-ile-step-motor-surucu/">
+<link rel="publisher" href="https://plus.google.com/114435350746631120443/posts"><meta name="google-site-verification" content="nS0heNQwDy8pu7bt01EAqiYaaEJj_OYHP72NFQ8Ie6A"><link rel="shortcut icon" href="http://320volt.com/favicon.ico"><meta http-equiv="Cache-Control" content="no-cache"><!--[if IE 6]><link href="/wp-content/themes/3/ie6.css" rel="stylesheet" type="text/css" /><![endif]--><!--iOS/android/handheld specific --><link rel="stylesheet" id="stylesheet-css" href="Docs_files/style.css" type="text/css" media="all"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><script src="Docs_files/osd.js"></script><script src="Docs_files/ca-pub-0182120847846351.js"></script><script async="" src="Docs_files/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-0182120847846351", enable_page_level_ads: true });</script><link rel="preload" href="Docs_files/integrator_002.js" as="script"><script type="text/javascript" src="Docs_files/integrator_002.js"></script><link rel="preload" href="Docs_files/integrator.js" as="script"><script type="text/javascript" src="Docs_files/integrator.js"></script></head><body id="blog"><div class="main-container"><div class="t1"><ul class="menus"><li class="a1"><a title="Arama-Search" href="http://320volt.com/aramaca/"></a></li><li class="a2"><a target="_blank" rel="nofollow" href="http://feeds.feedburner.com/320volt/"></a></li><li class="a3"><a target="_blank" rel="nofollow" href="https://www.facebook.com/320voltcom/?ref=bookmarks"></a></li><li class="a4"><a target="_blank" rel="nofollow" href="https://twitter.com/320voltcom/"></a></li><li class="a5"><a target="_blank" rel="nofollow" title="elektronik puzzle" href="http://320volt.com/elektronik-puzzle/"></a></li></ul><ul><li class="firstlink2"><a href="http://320volt.com/elektronik-kategorileri/">Bölümler</a></li><li class="firstlink2"><a href="http://320volt.com/yazarlar/">Yazarlar</a></li></ul></div><div class="hb1"><div id="header-widget-container"><div class="widget-header"><a target="_blank" rel="nofollow" href="http://www.robotistan.com/?utm_source=320volt&amp;utm_medium=ust-banner&amp;utm_campaign=gif"><img src="Docs_files/robotistan-reklam-720.gif" alt="robotistan" title="robotistan elektronik" width="728" height="90">	</a></div><div class="wg1"><div class="textwidget"><div class="topad"> <a href="http://320volt.com/" class="header-button">Elektronik Devreler Projeler</a> <a rel="nofollow" class="ton" target="_blank" href="http://320volt.com/iletisim/">İletişim</a> <a class="ton" href="http://320volt.com/online-elektronik-hesaplamalar/">Araçlar</a> <a class="ton" href="http://320volt.com/hakkinda/">Dikkat</a> </div></div></div></div></div><div id="konum"><a title="elektronik" class="home" href="http://320volt.com/">Elektronik</a> / <a href="http://320volt.com/category/elektronik-programlar-hesaplama-cevirici-kod-vb/">Elektronik Programlar</a>/<span class="current"></span></div><div id="page" class="single"><div class="content"><article class="article"><div class="post"><div class="single_post"><div class="post-single-content"><div class="pexcerpt2 post excerpt "><a rel="nofollow" title="Sprint Layout Makro Arşivim" href="http://320volt.com/sprint-layout-makro-arsivim/" target="_blank" id="featured-thumbnail3"><div class="featured-thumbnail"><img alt="Sprint Layout Makro Arşivim" src="Docs_files/sprint-layout-makro-arsivim.png" class="bor wp-post-image" width="220" height="162"></div></a><header><h1 class="title entry-title">Sprint Layout Makro Arşivim</h1></header><div class="post-content image-caption-format-1"><p>  Yazar: <strong>gevv </strong> <span class="post_date date updated">07.11.2012 </span> tarihinde yayımlanan 21.07.2017 tarihinde güncellenen  <span style="color: #993300;"><strong>Sprint Layout Makro Arşivim</strong></span>  ile <strong>2549</strong>  yazısı var. Arşivi; <a rel="nofollow" href="http://320volt.com/author/gevv/" title="gevv tarafından yazılan yazılar">gevv</a> </p></div></div>
+<div class="spp"><script async="" src="Docs_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 199px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0182120847846351" data-ad-slot="3816932029" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:199px;margin:0;padding:0;position:relative;visibility:visible;width:793px;background-color:transparent;"><ins id="aswift_1_anchor" style="display:block;border:none;height:199px;margin:0;padding:0;position:relative;visibility:visible;width:793px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;width:793px;height:199px;" width="793" height="199" frameborder="0"></iframe></ins></ins></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<p>PCB Çizimi için <a href="http://320volt.com/sprint-layout-4-videolu-anlatimi/" target="_blank">sprint layout pcb</a>
+ programını kullanıyorum bir ara özel bir makro lazım oldu her zaman 
+olduğu gibi önce google üzerinde araştırayım dedim yine biraz abarttım 
+sanırım :)  bir çok makro buldum zaten resmi sitede yeni makrolar 
+yayınlamış gerçi bir çoğu benim için gereksiz bu yüzden işe yarayanları 
+ayıklayıp arşive kattım </p>
+<p>Makro arşivim bana göre bu sefer daha düzenli oldu çeşitleri 
+klasörlere ayırdım  entegre makroları, transistör makroları vb. bir çok 
+yeni makro  var. İleride bu yazı altında hazırladığım, bulduğum işe 
+yarar makroları da ekleyeceğim </p>
+<p><strong>Sprint Layout Makro listesi</strong></p>
+<pre>
+<strong>MAKROS\LIB\1-DIRENC\ (41)</strong>
+
+POT
+TRIM 
+10W-sifir.lmk 
+10W-tas.LMK 
+10W-tas-dik.LMK 
+1W.LMK
+1W-dik.LMK
+2W.LMK
+2W-dik.LMK
+2w-dik-sekilli.LMK
+2W-sifir.lmk
+2W-tombul.LMK 
+50W-wh50.LMK
+5W- tas.LMK 
+5W-dik.lmk
+7W-tas.LMK
+R (10 mm).lmk 
+R (12,5 mm).lmk 
+R (15 mm).lmk 
+R (17,5 mm).lmk 
+R (2,5 mm).lmk
+R (5 mm).lmk
+R (7,5 mm).lmk
+R (RM2,5) (flat) MF-0,25 a.LMK
+R (RM24) SQP 5W a.LMK 
+R (RM3,2) (flat)MF-2 a.LMK
+R (RM4,3) 0,125W a.LMK
+R (RM4,3) MF-0,125 a.LMK
+R (RM5) MF-0,125 a.LMK
+R (RM54) SQP-30 a.LMK 
+R (RM64) SQP20W a.LMK 
+R (RM64) WH50 a0.LMK
+R (RM7,6) MF-0,25 a.LMK 
+R (RM8,2) MF-0,25 a.LMK 
+RC05.LMK
+RC06.LMK
+RC07.LMK
+RC08.LMK
+RC12.LMK
+RC20.LMK
+RC22.LMK
+RC32.LMK
+RC42.LMK
+
+<strong>MAKROS\LIB\1-DIRENC\-POT\ (30)</strong> 
+
+5-2.lmk 
+Alphastat 16 mono.LMK 
+Alphastat 16 stereo.LMK 
+ALPS_RK09A.LMK
+ALPS_RK09B.LMK
+ALPS_RK09C.LMK
+ALPS_RK18.LMK 
+ALPS_RS60.LMK 
+BOURNS_91.LMK 
+BOURNS_91_2G.LMK
+BOURNS_93.LMK 
+eq-pot.LMK
+MEC_23PCB.LMK 
+PIHER_PC-16SW.LMK 
+PIHER_PC-16X1.LMK 
+PIHER_PC-16X2.LMK 
+PIHER_PT10LH.LMK
+PIHER_PT10LV.LMK
+PIHER_PT15NH.LMK
+PIHER_PT15NV.LMK
+PIHER_PT6KH.LMK 
+PIHER_PT6KV.LMK 
+PIHER_PTC10LH.LMK 
+PIHER_PTC10LV.LMK 
+PT mono yatık.LMK 
+PT STREO.LMK
+PT STREO-2.LMK
+PT5.1.LMK 
+SPEC_249LIN.LMK 
+SPEC_249LOG.LMK 
+
+<strong>MAKROS\LIB\1-DIRENC\-TRIM\ (62)</strong>
+
+3059Y.LMK 
+BI25P.LMK 
+BI25RX.LMK
+BI64W.LMK 
+BI64X.LMK 
+BI67P.LMK 
+BI67W.LMK 
+BI67X.LMK 
+BI67Y.LMK 
+BI72P.LMK 
+BI72PM.LMK
+BI72PT.LMK
+BI72X.lmk 
+BI78P.LMK 
+BI82P.LMK 
+BI89P.LMK 
+japon.LMK 
+japon-dik.LMK 
+PT_2,5_H.lmk
+PT_2,5_V.lmk
+PT_RM2,54 (flat).LMK
+PT_RM2,54 (upright).LMK 
+PT_Spindel_lang.LMK 
+PT_Spindel_oben.LMK 
+PT_Spindel_seitl.LMK
+PT_Spindle_front.lmk
+PT_Spindle_front_long.lmk 
+PT_Spindle_long.LMK 
+PT_Spindle_side.LMK 
+PT_Spindle_top.lmk
+PT-1.LMK
+PT10 (flat).LMK 
+PT10 (upright).LMK
+PT10.LMK
+PT10_H.lmk
+PT10_V.lmk
+PT15 (flat).LMK 
+PT15 (upright).LMK
+PT15.LMK
+PT15_H.lmk
+PT15_V.lmk
+PT6 (flat).LMK
+PT6 (upright).LMK 
+PT6_H.lmk 
+PT6_V.lmk 
+R3099.LMK 
+R3296.LMK 
+R3362.LMK 
+RV.LMK
+T_11.LMK
+T_21.LMK
+T_211.LMK 
+T_22.LMK
+T_24.LMK
+T_46.LMK
+T_51.LMK
+TRİMPOT-22.LMK
+TRİMPOT-24.LMK
+TRİMPOT-46.LMK
+VR euro (CA6V).LMK
+VR.LMK
+VR5x10.LMK
+
+<strong>MAKROS\LIB\2-KONDANSATOR\ (39)</strong> 
+
+Trimmer
+WIMA 
+10000uf-63v.LMK 
+470uf-200v.LMK
+C (10 mm).lmk 
+C (15 mm).lmk 
+C (2,5 mm).lmk
+C (22,5 mm).lmk 
+C (27,5 mm).lmk 
+C (37,5 mm).lmk 
+C (5 mm).lmk
+C (7,5 mm).lmk
+C (RM21) 1uFx400V a.LMK 
+El-cap (RM10)(20) 3300uFx50 a.LMK 
+El-cap (RM10)(35) 10000uFx50 a.LMK
+El-cap (RM10)(35) 15000uFx63 a.LMK
+El-cap (RM10)(35) 4700uFx100 a.LMK
+El-cap (RM10)(35) 470uFx450 a.LMK 
+El-cap (RM2,5)(6,3) 22ux50 a.LMK
+El-cap (RM2,5)(8) 22ux100 a.LMK 
+El-cap (RM2,5)(8) 33ux100 a.LMK 
+El-cap (RM22,5)(35) 470uFx450.LMK 
+El-cap (RM32)(76) 100000uFx63 a.LMK 
+El-cap (RM5)(10) 1000uFx16 a.LMK
+El-cap (RM5)(10) 220uFx50 a.LMK 
+El-cap (RM5)(10) 220uFx63 a.LMK 
+El-cap (RM5)(13) 1000uFx35 a.LMK
+El-cap (RM5)(13) 100uFx100 a.LMK
+El-cap (RM5)(13) 220uFx100 a.LMK
+El-cap (RM5)(16) 2200uFx35 a.LMK
+Elko (20 mm).lmk
+Elko (33 mm).lmk
+Elko (48 mm).lmk
+Elko (58 mm).lmk
+Elko (Rad 1,5 mm).lmk 
+Elko (Rad 12,5 mm).lmk
+Elko (Rad 2 mm).lmk 
+Elko (Rad 2,5 mm).lmk 
+Elko (Rad 3,5 mm).lmk 
+Elko (Rad 5 mm).lmk 
+Elko (Rad 7,5 mm).lmk 
+
+<strong>MAKROS\LIB\2-KONDANSATOR\-Trimmer\ (3) </strong>
+
+C-Trimmer (10mm).LMK
+C-Trimmer (5mm).LMK 
+C-Trimmer (7,5mm).LMK 
+
+<strong>MAKROS\LIB\2-KONDANSATOR\-WIMA\ (48) </strong>
+
+WIMA_10A.LMK
+WIMA_10B.LMK
+WIMA_10C.LMK
+WIMA_15A.LMK
+WIMA_15B.LMK
+WIMA_15C.LMK
+WIMA_15D.LMK
+WIMA_15E.LMK
+WIMA_15F.LMK
+WIMA_2.5A.LMK 
+WIMA_2.5B.LMK 
+WIMA_2.5C.LMK 
+WIMA_2.5D.LMK 
+WIMA_2.5E.LMK 
+WIMA_2.5F.LMK 
+WIMA_22.5A.LMK
+WIMA_22.5B.LMK
+WIMA_22.5C.LMK
+WIMA_22.5D.LMK
+WIMA_22.5E.LMK
+WIMA_22.5F.LMK
+WIMA_22.5G.LMK
+WIMA_22.5H.LMK
+WIMA_22.5I.LMK
+WIMA_22.5J.LMK
+WIMA_27.5A.LMK
+WIMA_27.5B.LMK
+WIMA_27.5C.LMK
+WIMA_27.5D.LMK
+WIMA_27.5E.LMK
+WIMA_27.5F.LMK
+WIMA_37.5A.LMK
+WIMA_37.5B.LMK
+WIMA_37.5C.LMK
+WIMA_37.5D.LMK
+WIMA_5.0A.LMK 
+WIMA_5.0B.LMK 
+WIMA_5.0C.LMK 
+WIMA_5.0D.LMK 
+WIMA_5.0E.LMK 
+WIMA_5.0F.LMK 
+WIMA_5.0G.LMK 
+WIMA_5.0H.LMK 
+WIMA_7.5A.LMK 
+WIMA_7.5B.LMK 
+WIMA_7.5C.LMK 
+WIMA_7.5D.LMK 
+WIMA_7.5E.LMK 
+
+<strong>MAKROS\LIB\3-DIYOT-LED\ (48)</strong> 
+
+Rectifiers 
+1.5KE220CA.LMK
+433-468.LMK 
+6PIN Superflux WW-KW-RGB.LMK
+dik-sekilli.LMK 
+Diode (DO-201AE) (RM12) 1N5822 a.LMK
+Diode (RM10) P4KE20CA a.LMK 
+Diode (RM10) UF4007 a.LMK 
+Diode (RM10) zenner a.LMK 
+Diode (RM10,5) HFA30PB120-t0247 a.lmk 
+Diode (RM12) 1,5KE440 a.LMK 
+Diode (RM15) 1,5KE20CA a1.LMK 
+Diode (RM15) 1,5KE440 a.LMK 
+Diode (RM15) 5KP40A a.LMK 
+Diode (RM15) 5KP40CA a.LMK
+Diode (RM5) 20ETS16FP-to220 a.lmk 
+Diode (RM5) zenner a1.LMK 
+Diode (RM8,2) UF4007 a.LMK
+Diode (TO220) 20ETS16FP a.LMK 
+Diode (TO244AB) HFA140MD60C a.LMK 
+Diode (TO247) HFA30PB120 a.LMK
+Diode (TO252) 6CWQ10FN a1.LMK 
+Diode -DO-14.LMK
+Diode -DO-15.LMK
+Diode -DO-16.LMK
+Diode -DO-201-(1N5400X).LMK 
+Diode -DO-201-(dik).LMK 
+Diode -DO-26.LMK
+Diode -DO-27.LMK
+Diode -DO-29.LMK
+Diode -DO-34.LMK
+Diode -DO-35-(1N4148).LMK 
+Diode -DO-35-(dik).LMK
+Diode -DO-41-(1N400X).LMK 
+Diode -DO-7.LMK 
+Diode -R6-6AMP.LMK
+Diode_11a.lmk 
+Diode_11a11.lmk 
+Diode_36 (HFA140MD60C) a.lmk
+Diode_6,5 ??515? a.LMK
+HFA15TB60.LMK 
+LED-Diode - (4x2 mm).lmk
+LED-Diode - (5 mm).lmk
+LED-Diode - (5 mm-yatik).lmk
+LED-Diode- (3 mm).lmk 
+LED-Diode -3PIN.LMK 
+LED-Diode -T1.75.LMK
+LED-Diode -T1.LMK 
+TO220 MBR2080 a0.LMK
+
+<strong>MAKROS\LIB\3-DIYOT-LED\-Rectifiers\ (10) </strong>
+
+DIL.LMK 
+Flat 3.8 mm.LMK 
+Flat 5 mm (-,AC,+,AC).LMK 
+Flat 5 mm (-,AC,AC,+).LMK 
+Flat 7. 5mm (-,AC,AC,+).LMK 
+KBPC5010-50AMP.LMK
+Round 5 mm.LMK
+RS607.LMK 
+Square 10 mm.LMK
+Square 18 mm.LMK
+
+<strong>MAKROS\LIB\4-ENTEGRE\ (24) </strong>
+
+ATMEL
+AUDIO
+DIGER
+OPAMP
+OPTO 
+PIC
+PWM-SMPS 
+REGULATOR
+SOKET
+DIL-14.LMK
+DIL-16.LMK
+DIL-18.LMK
+DIL-2.LMK 
+DIL-20.LMK
+DIL-22-400.LMK
+DIL-24.LMK
+DIL-24-400.LMK
+DIL-24-600.LMK
+DIL-28.LMK
+DIL-28-600.LMK
+DIL-32-600.LMK
+DIL-4.LMK 
+DIL-40.LMK
+DIL-40-600.LMK
+DIL-48-600.LMK
+DIL-52-600.LMK
+DIL-6.LMK 
+DIL-64-600.LMK
+DIL-68-600.LMK
+DIL-8.LMK 
+SOT141-6.LMK
+SOT-157.LMK 
+SOT243-1.LMK
+
+<strong>MAKROS\LIB\4-ENTEGRE\-ATMEL\ (21)</strong>
+
+ATmega1284P-20PU a01.LMK
+ATmega168-20PU a01.LMK
+ATmega32-16PU a01.LMK 
+ATmega328P-20PU a01.LMK 
+ATMega8 DIP-28.LMK
+ATmega8-16PU a01.LMK
+ATMega8515 DIP40.LMK
+Atmel_Tiny_11_DIP.LMK 
+Atmel_Tiny_12_DIP.LMK 
+Atmel_Tiny_13_DIP.LMK 
+Atmel_Tiny_15L_DIP.LMK
+Atmel_Tiny_2313_DIP.LMK 
+Atmel_Tiny_24_DIP.LMK 
+Atmel_Tiny_25_DIP.LMK 
+Atmel_Tiny_26_DIP.LMK 
+Atmel_Tiny_44_DIP.LMK 
+Atmel_Tiny_45_DIP.LMK 
+Atmel_Tiny_84_DIP.LMK 
+Atmel_Tiny_85_DIP.LMK 
+CBGA ATxmega384A1-CU a.LMK
+Dil28 SCS-28 socket a01.LMK 
+
+<strong>MAKROS\LIB\4-ENTEGRE\-AUDIO\ (15)</strong>
+
+LM3886.LMK
+STK4044.LMK 
+TDA1519.LMK 
+TDA1519_1.LMK 
+TDA1562Q.LMK
+tda2005.LMK 
+TDA2030.LMK 
+TDA2030A.LMK
+TDA2822M.LMK
+TDA7294.LMK 
+TDA7296.LMK 
+TDA7377.LMK 
+tda7386.LMK 
+tda7560.LMK 
+tda8560q.LMK
+
+<strong>MAKROS\LIB\4-ENTEGRE\-DIGER\ (21)</strong>
+
+4009.LMK
+4010.LMK
+4011.LMK
+4012.LMK
+4017.LMK
+4023.LMK
+4073.LMK
+4081.LMK
+4082.LMK
+4093.LMK
+DS1307N a.LMK 
+HA13408.LMK 
+L298.LMK
+LM3915.LMK
+LM723.LMK 
+Multiwatt15-flat.LMK
+NE555.LMK 
+SAA1064.LMK 
+TA8215H.LMK 
+TO92 DS18B20 a.LMK
+TO92 LM335AZ a1.LMK 
+
+<strong>MAKROS\LIB\4-ENTEGRE\-OPAMP\ (14)</strong>
+
+741.LMK 
+CA 324.LMK
+LF353.LMK 
+LM 339.LMK
+LM324.LMK 
+LM339.LMK 
+LM358.LMK 
+NE 4558.LMK 
+NE 5532.LMK 
+NE 5534.LMK 
+TL 072.LMK
+TL071.LMK 
+TL072.LMK 
+TL074.LMK 
+
+<strong>MAKROS\LIB\4-ENTEGRE\-OPTO\ (28) </strong>
+
+4N35_36_37.LMK
+CNY74-2 a.LMK 
+CNY74-4 a.LMK 
+DIL4 TLP521GB a01.LMK 
+DIL8 HCPL3120 a0.LMK
+DIL8 HCPL3120 smd a0.LMK
+DIL8 HCPL7510 a01.LMK 
+DIL8 HCPL7510 Rekomended HP smd a1.LMK
+DIL8 HCPL7510 smd a01.LMK 
+DIL8 PVI5033RS a.LMK
+HCPL3120 a.LMK
+HCPL3120 smd a.LMK
+HCPL7510 smd a1.LMK 
+HCPL7800 smd a.LMK
+MOC30.LMK 
+OptoRelay.LMK 
+optotriac S21MD3V.LMK 
+pc817.LMK 
+pc817_smd.LMK 
+PVI5033RS a.LMK 
+PVI5050 a.LMK 
+SL5504.LMK
+TLP521GB a01.LMK
+TLP621-4BL a.LMK
+TLP621-4BL+soc smd a.LMK
+TLP621-4BL+soc smd a1.LMK 
+TLP621-4BL+socket a.LMK 
+TLP634.LMK
+
+<strong>MAKROS\LIB\4-ENTEGRE\-PIC\ (8) </strong>
+
+12F629.LMK
+12F675.LMK
+16F62X.LMK
+16F818_819.LMK
+16F84.LMK 
+16F873_876.LMK
+PIC16F630.LMK 
+PIC16F676.LMK 
+
+<strong>MAKROS\LIB\4-ENTEGRE\-PWM-SMPS\ (7)</strong>
+
+SG3524.LMK
+SG3525.LMK
+TL494.LMK 
+TL494-soket.lmk 
+TNY-Y.LMK 
+TOP249Y.LMK 
+UC3842.LMK
+
+<strong>MAKROS\LIB\4-ENTEGRE\-REGULATOR\ (14)</strong>
+
+L200.LMK
+L200T-TO3.LMK 
+TO220-VR(-).LMK 
+TO220-VR(+).LMK 
+TO220-VR(+)2.LMK
+TO220-VR(+Adj).LMK
+TO220-VR(-Adj).LMK
+TO3-VR(-).LMK 
+TO3-VR(+).LMK 
+TO3-VR(+Adj).LMK
+TO92 L78L05ABZ a1.LMK 
+TO92-VR(-).LMK
+TO92-VR(+).LMK
+TO92-VR(+Adj).LMK 
+
+<strong>MAKROS\LIB\4-ENTEGRE\-SOKET\ (17)</strong>
+
+DIL-14+socket a.LMK 
+DIL-16+socket a.LMK 
+Dil16+socket a01.LMK
+DIL-20+socket a.lmk 
+DIL-28 +socket a.LMK
+Dil28 SCS-28 socket a01.LMK 
+Dil40 SCL-40 socket a01.LMK 
+DIL-40+socket a.LMK 
+Dil8 SCS-8 socket a01.LMK 
+ZIF-40-2.LMK
+ZIF-Sockel 20pol.LMK
+ZIF-Sockel 24pol.LMK
+ZIF-Sockel 28pol.LMK
+ZIF-Sockel 32pol.LMK
+ZIF-Sockel 40.LMK 
+ZIF-Sockel 40pol.LMK
+ZIF-Sockel 68.LMK 
+
+<strong>MAKROS\LIB\5-TRANSISTOR\ (38)</strong>
+
+BFXX 
+IGBT 
+REGULATOR
+SOT
+TO-YUVARLAK
+TUBE 
+2SC3182.LMK 
+2SC5200-2SA1943.lmk 
+2SSC5200-2SA1943-dik.LMK
+PENTA-1.LMK 
+PENTA-flat.LMK
+SP92-DSG.LMK
+TO126-(flat).lmk
+TO126.lmk 
+TO127- (flat).lmk 
+TO127.lmk 
+TO218-(flat).lmk
+TO218.lmk 
+TO220 (flat) a1.LMK 
+TO220 (flat).LMK
+TO220.lmk 
+TO-220.LMK
+TO220-5.LMK 
+TO220-7B(top-smps).LMK
+TO220-7C-(top-smps).LMK 
+TO220-BCE (flat).LMK
+TO220-VR(+) FK22 (flat)a.LMK
+TO220-VR(+) FK301A (flat)a.LMK
+TO220-VR(+) FK301A a.LMK
+TO220-VR(+Adj) LM317T a.LMK 
+TO240 IRFK6H054.LMK 
+TO247 (flat full) a.LMK 
+TO247 (flat) a.LMK
+TO247 (flat) a1.LMK 
+TO247 (flat) a2.LMK 
+TO-3.LMK
+TO-37.LMK 
+TO3-KAG.LMK 
+TO3P-(flat).LMK 
+TO3P.LMK
+TO5-AGC.LMK 
+TO-92-mOD.lmk 
+TO92-NORM.lmk 
+Top S(top-smps).LMK 
+
+<strong>MAKROS\LIB\5-TRANSISTOR\-BFXX\ (41)</strong>
+
+bf199.LMK 
+BF199b.LMK
+bf245.LMK 
+bf245b.LMK
+bf246.LMK 
+bf246b.LMK
+bf247.LMK 
+bf247b.LMK
+BF247rs.LMK 
+bf256.LMK 
+bf256b.LMK
+bf494.LMK 
+bf494b.LMK
+BF900.LMK 
+bf900b.LMK
+bf900c.LMK
+bf961.LMK 
+bf961b.LMK
+bf965c.LMK
+bf981.LMK 
+bf981b.LMK
+bf981c.LMK
+bf981d.LMK
+BFG65.LMK 
+bfg65b.LMK
+bfg65c.LMK
+bfr34.LMK 
+bfr34b.LMK
+bfr91.LMK 
+bfr91b.LMK
+BFR96.LMK 
+bfr96b.LMK
+bft65b.LMK
+BFW16.LMK 
+bfw92.LMK 
+BLY87C.LMK
+bv5048.LMK
+BV5061.LMK
+bv5118.LMK
+BWMMP1.LMK
+BWMMVV.LMK
+
+<strong>MAKROS\LIB\5-TRANSISTOR\-IGBT\ (10)</strong>
+
+HVI 5SNA1000G450300.LMK 
+HVI FF300R17KE3 a.LMK 
+HVI FF300R17KE3 a1.LMK
+HVI FF400R33KF2c a.LMK
+HVI FF450R17ME3 a.LMK 
+HVI FF800R17KE3 Precise a1.LMK
+HVI FF800R17KE3 smd a.LMK 
+HVI FZ600R17KE3 a.LMK 
+HVI FZ600R17KE3 a1.LMK
+SK30GARL067E-igbt-modul.LMK 
+
+<strong>MAKROS\LIB\5-TRANSISTOR\-REGULATOR\ (27) </strong>
+
+LM2575HVT-ADJ.LMK 
+lm2678.LMK
+REG-TO220-VR(-).LMK 
+REG-TO220-VR(+).LMK 
+REG-TO220-VR(+)2.LMK
+REG-TO220-VR(+Adj).LMK
+REG-TO220-VR(-Adj).LMK
+REG-TO3-VR(-).LMK 
+REG-TO3-VR(+).LMK 
+REG-TO3-VR(+Adj).LMK
+REG-TO92-VR(-).LMK
+REG-TO92-VR(+).LMK
+REG-TO92-VR(+Adj).LMK 
+TO220-5 LM2576T-ADJ a.LMK 
+TO220-5 LM2576T-ADJ FK22 a01.LMK
+TO220-5 LM2576T-ADJ FK22 smd a1.LMK 
+TO220-VR(-).LMK 
+TO220-VR(+).LMK 
+TO220-VR(+)2.LMK
+TO220-VR(+Adj).LMK
+TO220-VR(-Adj).LMK
+TO3-VR(-).LMK 
+TO3-VR(+).LMK 
+TO3-VR(+Adj).LMK
+TO92-VR(-).LMK
+TO92-VR(+).LMK
+TO92-VR(+Adj).LMK 
+
+<strong>MAKROS\LIB\5-TRANSISTOR\-SOT\ (14) </strong>
+
+SOT186 (flat).LMK 
+SOT186.LMK
+SOT199 (flat).LMK 
+SOT199.LMK
+SOT25.LMK 
+SOT32 (flat).LMK
+SOT32.LMK 
+SOT42.LMK 
+SOT54.LMK 
+SOT82 (flat).LMK
+SOT82.LMK 
+SOT93 (flat).LMK
+SOT93.LMK 
+SP92-ECB.LMK
+
+<strong>MAKROS\LIB\5-TRANSISTOR\-TO-YUVARLAK\ (30) </strong>
+
+TO1.LMK 
+TO-100.LMK
+TO-10GG-46.LMK
+TO-10GG-54.LMK
+TO-10II-70A.LMK 
+TO-10II-70B.LMK 
+TO-10JJ-93.LMK
+TO-12.LMK 
+TO-17.LMK 
+TO-18.LMK 
+TO18-CBE.LMK
+TO-33.LMK 
+TO-39.LMK 
+TO39-CBE.LMK
+TO-5.LMK
+TO-52.LMK 
+TO5-CBE.LMK 
+TO72-CBE.LMK
+TO-76.LMK 
+TO78.LMK
+TO-8.LMK
+TO-8BB-54.LMK 
+TO-8BB-62.LMK 
+TO-8DD-100.LMK
+TO-8DD-78.LMK 
+TO-8DD-93.LMK 
+TO-8EE-93.LMK 
+TO-9.LMK
+TO-98.LMK 
+TO-99-8.LMK 
+
+<strong>MAKROS\LIB\5-TRANSISTOR\-TUBE\ (20)</strong>
+
+12AX7.LMK 
+1Z29B.LMK 
+6-2.LMK 
+62-3.LMK
+62-4.LMK
+63-1.LMK
+6a14a.LMK 
+6A14A-2.LMK 
+6a22.LMK
+7-3-55.LMK
+9.LMK 
+9-3.LMK 
+99.LMK
+D22,5.LMK 
+t2.LMK
+t3.LMK
+TR-TUBE1.LMK
+TR-TUBE2.LMK
+TR-TUBE3.LMK
+TR-TUBE4.LMK
+
+<strong>MAKROS\LIB\DIGERLERI\ (17) </strong>
+
+3xHelix.LMK 
+Bluetoth BTM-111 a.LMK
+Bluetoth ESD200-B5 a.LMK
+Bluetoth WT12 a.LMK 
+Bluetoth WT12 a01.LMK 
+Buz EMX-2T a.LMK
+Buz speaker KSS1206.LMK 
+CX 120 P.LMK
+G6Y-1.LMK 
+IR module TSOP.LMK
+IR module TSOP1736 a.LMK
+PLP 150.LMK 
+RF-module WT12 a.LMK
+sxbp150.LMK 
+tft30p.LMK
+TSOP1736.LMK
+Varistor (RM8,2) a.LMK
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\ (74) </strong>
+
+Audio
+D-SUB
+FUSE 
+Header 
+ICD
+KLEMENS
+Pil
+SIP
+USB
+25 CON.LMK
+40 CON.LMK
+AGP.LMK 
+Atmel_ISP.LMK 
+BNC.LMK 
+CON 68.LMK
+CTP1-101.LMK
+CTP-BR-L51.LMK
+CTP-BV-031.LMK
+DC jack 3016 a01.LMK
+DC jack 3016 a1.LMK 
+DIN-Buchse_print_4pol.LMK 
+DIN-Buchse_print_5pol.LMK 
+DIN-Buchse_print_6pol.LMK 
+DIN-Buchse_print_8pol.LMK 
+DIN-Lautsprecherbuchse_print.LMK
+DPDT.LMK
+e LPT.lmk 
+eIDE.lmk
+eVGA.lmk
+icsp-con-flat.LMK 
+ide-yatik.LMK 
+jack 8 (1) TJ8-8P8C mama a.LMK
+jack 8 (1) TJ8-8P8C mama a1.LMK 
+jack 8 (1) TJ8-8P8C mama a2.LMK 
+jack 8 (1) TJ8-8P8C smd mama a1.LMK 
+jack a.LMK
+jack a1.LMK 
+jack on 8 (2) smd TJ8-8P8C indi a.LMK 
+Joy SE K-320 a1.LMK 
+PBS-03 AVR-ISP a.LMK
+PBS-16 a.LMK
+PCI.LMK 
+PS2 6 PİN.LMK 
+PSCN.LMK
+PSS.LMK 
+PSX.LMK 
+PWL 04Ma.LMK
+RCA-piyasa.LMK
+RJ11-6.LMK
+RJ11A.LMK 
+RJ12A.LMK 
+RJ45-4.LMK
+RJ45-8.LMK
+RJ45A.LMK 
+SCM10M a1.LMK 
+SCM10MR a1.LMK
+SCM20M a1.LMK 
+SCM26M a1.LMK 
+SCM40M a1.LMK 
+SCM64M a1.LMK 
+SIMholder.LMK 
+swic-std-dk.LMK 
+WF 02M a1.LMK 
+WF 02MR a.LMK 
+WF 04M a1.LMK 
+XCLP1.LMK 
+XJ1.LMK 
+XPC1.LMK
+YS3P.LMK
+YS4P.LMK
+YS5P.LMK
+YS6P.LMK
+YS8P.LMK
+YS9P.LMK
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-Audio\ (12)</strong>
+
+2xrca.LMK 
+BU_KS.LMK 
+Con audio 3,5mm a0.LMK
+mp3-jak.LMK 
+Neutrik-NYS215-jak.LMK
+PHONE JAK STRO.LMK
+stereo-jak-std.LMK
+stereo-soket.LMK
+stereo-tos-jak-dik-Vertikal 2-fach.LMK
+TOS 2.LMK 
+TOS 3.LMK 
+TS1.LMK 
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-D-SUB\ (31)</strong>
+
+Con Canon DB-9 a.LMK
+DB15F.LMK 
+DB15F-90.LMK
+DB15Fo.LMK
+DB15M.LMK 
+DB15M-90.LMK
+DB25F.LMK 
+DB25F-90.LMK
+DB25Fo.LMK
+DB25M.LMK 
+DB25M-90.LMK
+DB37F.LMK 
+DB37F-90.LMK
+DB37M.LMK 
+DB37M-90.LMK
+DB50F.LMK 
+DB50F-90.LMK
+DB50M.LMK 
+DB50M-90.LMK
+DB9 a.LMK 
+DB9F.LMK
+DB9F-90.LMK 
+DB9Fo.LMK 
+DB9M.LMK
+DB9M-90.LMK 
+D-SUB-15F.LMK 
+D-SUB-25F.LMK 
+D-SUB-9F.LMK
+SUB-D-15.LMK
+SUB-D-25.LMK
+SUB-D-9.LMK 
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-FUSE\ (15) </strong>
+
+Fuse BLX-A &amp; ZH266 a.LMK
+Fuse BLX-A a0.LMK 
+Fuse Holder (5 x 20 mm).LMK 
+Fuse Holder (round, 5 mm).LMK 
+Fuse ZH266 a.LMK
+FUSE1M.LMK
+FUSE2B.LMK
+FUSE3X.LMK
+Fuse-holder (5x20mm) RM20.LMK 
+Fuse-holder (5x20mm) RM22,6.LMK 
+Fuse-holder (round) RM5,08.LMK
+FUSEstd.LMK 
+SI_8.LMK
+Sicherung RM 22,5.LMK 
+VP4.LMK 
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-Header\ (81)</strong> 
+
+10x2-HDR.LMK
+11x2-HDR.LMK
+12x2-HDR.LMK
+13x2-HDR.LMK
+14x2-HDR.LMK
+15x2-HDR.LMK
+16x2-HDR.LMK
+17x2-HDR.LMK
+18x2-HDR.LMK
+19x2-HDR.LMK
+1x1.LMK 
+1x10.LMK
+1X10-SIP.LMK
+1x11.LMK
+1x12.LMK
+1x13.LMK
+1x14.LMK
+1x15.LMK
+1x16.LMK
+1x17.LMK
+1x18.LMK
+1x19.LMK
+1x2.LMK 
+1x20.LMK
+1X24-SIP.LMK
+1x2-HDR.LMK 
+1x3.LMK 
+1x4.LMK 
+1X4-SIP.LMK 
+1x5.LMK 
+1X5-SIP.LMK 
+1x6.LMK 
+1x7.LMK 
+1X7-SIP.LMK 
+1x8.LMK 
+1X8-SIP.LMK 
+1x9.LMK 
+1X9-SIP.LMK 
+20x2-HDR.LMK
+21x2-HDR.LMK
+22x2-HDR.LMK
+23x2-HDR.LMK
+24x2-HDR.LMK
+25x2-HDR.LMK
+2x1.LMK 
+2x10.LMK
+2x11.LMK
+2x12.LMK
+2x13.LMK
+2x14.LMK
+2x15.LMK
+2x16.LMK
+2x17.LMK
+2x18.LMK
+2x19.LMK
+2x2.LMK 
+2x20.LMK
+2x2-HDR.LMK 
+2x3.LMK 
+2x4.LMK 
+2x5.LMK 
+2x6.LMK 
+2x7.LMK 
+2x8.LMK 
+2x9.LMK 
+3x2-HDR.LMK 
+4x2-HDR.LMK 
+5x2-HDR.LMK 
+6x2-HDR.LMK 
+7x2-HDR.LMK 
+8x2-HDR.LMK 
+9x2-HDR.LMK 
+Con Jumper &amp; PLS-02 a.LMK 
+Con Jumper &amp; PLS-03 a.LMK 
+Con Jumper 4ob(2,54) a.LMK
+Con PLS-01 a.LMK
+Con PLS-02 a.LMK
+Con PLS-03 a.LMK
+Con PLS-06 a.LMK
+Con PLS-08 a.LMK
+Con PLS-16 a.LMK
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-ICD\ (12)</strong>
+
+Con IDC06M a1.LMK 
+Con IDC06M AVR-ISP a1.LMK 
+Con IDC06M AVR-ISP smd a1.LMK 
+Con IDC10M a1.LMK 
+Con IDC10M smd a1.LMK 
+Con IDC10MR a1.LMK
+Con IDC20M a1.LMK 
+Con IDC20M smd a1.LMK 
+Con IDC26M a1.LMK 
+Con IDC40M a1.LMK 
+Con IDC40M smd a0.LMK 
+Con IDC64 a1.LMK
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-KLEMENS\ (13)</strong>
+
+308-021-12 a.LMK
+klemens_AKL057-02_RM5,08.LMK
+klemens_AKL057-07_RM5,08.LMK
+klemens_RM 2,5 2fach.LMK
+klemens_RM 2,5 3fach.LMK
+KLEMENS-2.LMK 
+KLEMENS-3.LMK 
+Klemm_3.5x2.LMK 
+Klemm_3.5x3.LMK 
+Klemm_3.5x5.LMK 
+Klemm_5x2.LMK 
+Klemm_5x3.LMK 
+klepw.LMK 
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-Pil\ (8) </strong>
+
+Bat AA size a.LMK 
+Bat AAA size a.LMK
+Bat CR 2032 a.LMK 
+Bat CR 2032 b.LMK 
+Bat Li-ion 3V a.LMK 
+Bat panel BH19VW CR 2032 a.LMK
+Li-ion 3V a.LMK 
+pil-soket-1x.LMK
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-SIP\ (13)</strong>
+
+2X 
+10SIP100.LMK
+1SIP100.LMK 
+22SIP100.LMK
+24SIP100.LMK
+2SIP100.LMK 
+30SIP100.LMK
+3SIP100.LMK 
+4SIP100.LMK 
+5SIP100.LMK 
+6SIP100.LMK 
+7SIP100.LMK 
+8SIP100.LMK 
+9SIP100.LMK 
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-SIP\-2X\ (25)</strong>
+
+10x2-HDR.LMK
+11x2-HDR.LMK
+12x2-HDR.LMK
+13x2-HDR.LMK
+14x2-HDR.LMK
+15x2-HDR.LMK
+16x2-HDR.LMK
+17x2-HDR.LMK
+18x2-HDR.LMK
+19x2-HDR.LMK
+1x2-HDR.LMK 
+20x2-HDR.LMK
+21x2-HDR.LMK
+22x2-HDR.LMK
+23x2-HDR.LMK
+24x2-HDR.LMK
+25x2-HDR.LMK
+2x2-HDR.LMK 
+3x2-HDR.LMK 
+4x2-HDR.LMK 
+5x2-HDR.LMK 
+6x2-HDR.LMK 
+7x2-HDR.LMK 
+8x2-HDR.LMK 
+9x2-HDR.LMK 
+
+<strong>MAKROS\LIB\JAK-KONNEKTOR\-USB\ (15)</strong>
+
+Con usb mini B5 a.LMK 
+pc-anakart-2x-usb.LMK 
+PRINT-USB-DIK.LMK 
+PRINT-USB-inf.LMK 
+USB_A.LMK 
+USB_B.LMK 
+USB1.LMK
+USB2.LMK
+USB3.LMK
+USB5.LMK
+USB6.LMK
+USB7.LMK
+USB8.LMK
+USB9.LMK
+USB-STD.LMK 
+
+<strong>MAKROS\LIB\KRISTAL\ (57) </strong>
+
+21M15D.lmk
+CFM455E.lmk 
+Crystal (flat) 32768 a01.LMK
+Crystal 14,31818MHz a.LMK 
+Crystal 14,31818MHz a0.LMK
+Crystal 14,31818MHz a1.LMK
+Crystal 14,31818MHz a2.LMK
+Crystal 14,31818MHz a3.LMK
+Crystal 14,31818MHz smd a0.LMK
+Crystal 16MHz a.LMK 
+Crystal 32768 a01.LMK 
+Crystal 32768 a1.LMK
+Crystal CDA 10,7 a.LMK
+Crystal SFE 10,7 a.LMK
+Crystal smd7x5 SG8002 18,432MHz smd a.LMK 
+HC-18 (flat).LMK
+HC18.LMK
+HC-18.LMK 
+HC-25 (flat).LMK
+HC-25.LMK 
+HC-33 (flat).LMK
+HC-33.LMK 
+HC-48 (flat).LMK
+HC-48.LMK 
+HC-49 (flat).LMK
+HC-49.LMK 
+HC-50 (flat).LMK
+HC-50.LMK 
+HC-51 (flat).LMK
+HC-51.LMK 
+HC-6 (flat).LMK 
+HC-6.LMK
+Mini (flat).LMK 
+MINI.LMK
+Oscillator.LMK
+OSZI.LMK
+qfmfx.lmk 
+qfmxffa.lmk 
+qfnic.lmk 
+qfrft18.lmk 
+qfrftmqf.lmk
+qfshowa.lmk 
+qftqf.lmk 
+QFXFM.lmk 
+QHC-6U.lmk
+quarz.lmk 
+Quarzmod.lmk
+R7,5.lmk
+RF15BD.lmk
+UM-1.LMK
+UM-5.LMK
+X1.LMK
+Xtal_filter.lmk 
+Xtal_gor.lmk
+Xtal_vert_2.lmk 
+Xtal5.LMK 
+Xtl 4MHz (boardy).LMK 
+
+<strong>MAKROS\LIB\LCD-DISPLY\ (32)</strong>
+
+7 Segment 13,5 A.LMK
+BC1602_66x32.LMK
+BC1602_82x35.LMK
+CA56-12SRWA-disply.LMK
+DSPLY100mm.LMK
+DSPLY10mm.LMK 
+DSPLY20mm.LMK 
+DSPLY20mm_2.LMK 
+DSPLY28LMK.LMK
+DSPLY57mm.LMK 
+DSPLY7mm.LMK
+DSPLYmm.LMK 
+DSPLYvqe.LMK
+HDN1131O-piros-CA.LMK 
+LCD WH2004L-YYB-CT a1.LMK 
+LCD WH2004L-YYE-CT a01.LMK
+LCD WP2002A-Y-CCS a.LMK 
+LCD WP2002A-Y-CCS a1.LMK
+LCD.LMK 
+LCD2X.LMK 
+lcdd.LMK
+LTC4620.LMK 
+MT-12232a.LMK 
+MT16S2D.LMK 
+MT16S2DH.LMK
+MT16S2H.LMK 
+Nokia dixi lcd.LMK
+TIL305P.LMK 
+vqb28LMK.LMK
+vqe.LMK 
+WH1602C.LMK 
+WH1602D.LMK 
+
+<strong>MAKROS\LIB\ROLE\ (34)</strong>
+
+sds.imk 
+10A 250v.LMK
+BS-901AS.LMK
+Finder Fin 30.22.9 xxV.LMK
+FUJITSU 211NE.LMK 
+G6K-2P_12V.LMK
+G6K-2P_5V.LMK 
+G6S-2_12V.LMK 
+G6S-2_24V.LMK 
+G6S-2_6V.LMK
+JZX-18FF.LMK
+K1CK012W.LMK
+Mini Relais.LMK 
+Nais TQ2.LMK
+Omrom G5K.LMK 
+Power Relais (T).LMK
+reedrel.lmk 
+Relay Bestar (12V 16mA) a.lmk 
+Relay EDR2D1B1200 a1.LMK
+Relay EDR2D1B1200 a2.LMK
+Relay EDR2D1H0500 a.LMK 
+Relay JQX-7F-1Z a.lmk 
+Relay SANYOU SMI-S-224L (16amp stndrt).lmk
+Relay TIANBO HJR1-2C-1 a1.LMK 
+Relay TQ2-5V a.LMK
+Relay Wanjia (flat) 24V a.LMK 
+Relay Wanjia 24V a.lmk
+Relay WJ113-2C 24Vdc 5A smd a.LMK 
+Relfind.lmk 
+relfindd.lmk
+RH12.lmk
+rhdc.lmk
+rl1.LMK 
+sds.lmk 
+
+<strong>MAKROS\LIB\SEMBOL\ (36)</strong>
+
+777.lmk 
+CE_Big.LMK
+CE_Large.LMK
+CE_Medium.LMK 
+CE_Small.LMK
+d-vida-ust.lmk
+GIT_BS.LMK
+GIT_KU.LMK
+GROUND.LMK
+makas.LMK 
+MASSE.LMK 
+MINUS.LMK 
+NR_BS_H.LMK 
+NR_BS_HV.LMK
+NR_BS_V.LMK 
+NR_KU_H.LMK 
+NR_KU_HV.LMK
+NR_KU_V.LMK 
+nto.LMK 
+pad-vida.lmk
+pad-vida_2.lmk
+papuc.LMK 
+PFEIL.LMK 
+PLUS.LMK
+smiley.LMK
+somun.lmk 
+somun-vida.lmk
+somun-vida-2.lmk
+TB1.LMK 
+TB2.LMK 
+vida-t.lmk
+WEEE_Big.LMK
+WEEE_Large.LMK
+WEEE_Medium.LMK 
+WEEE_Small.LMK
+y-vida-ust.lmk
+
+<strong>MAKROS\LIB\SMPS-TRAFO-BOBIN\ (53)</strong>
+
+428-ATXN.LMK
+DASH-2-B-5.LMK
+E25 H.LMK 
+E25.LMK 
+E30.LMK 
+E55.LMK 
+E70.LMK 
+EE-16-429.LMK 
+EE-16-TOP.LMK 
+EE19.LMK
+EE-19N.LMK
+EE-22-19-CN.LMK 
+EE25-N87.LMK
+EE30.LMK
+EEL-16DR-01.LMK 
+EEL-16N.LMK 
+EEL-16QG.LMK
+EEL-19AG.LMK
+EEL-19SB-01.LMK 
+EFD20.LMK 
+ei33.LMK
+ETD34.LMK 
+ETD39.LMK 
+ETD39-EL35.LMK
+L.LMK 
+L_2.lmk 
+L_5mm.LMK 
+L_5x6.LMK 
+L1.LMK
+L10Vert.LMK 
+L10Vertx45.LMK
+L12,5Vert.LMK 
+L12,5Vertx45.LMK
+L15.LMK 
+L15x45.LMK
+L1ibm.LMK 
+L2.LMK
+L25.LMK 
+L25x45.LMK
+L2ibm.LMK 
+Le.LMK
+Le_5m.LMK 
+Le_5mm.LMK
+Le_7,5mm.LMK
+Le1.LMK 
+Lea.LMK 
+Leb.LMK 
+Lf.LMK
+Lhf.LMK 
+LS-131T.LMK 
+QG-0135.LMK 
+T180.LMK
+x1.LMK
+
+<strong>MAKROS\LIB\SOGUTUCU\ (24)</strong>
+
+FK216 (Finger, upright).73.delayed
+f.LMK 
+FK216 (Finger, flat).LMK
+FK216 (Finger, upright).LMK 
+FK216MI.LMK 
+HS for transistor.LMK 
+SK01.LMK
+SK02.LMK
+SK03.LMK
+SK04.LMK
+SK07.LMK
+SK08.LMK
+SK104.LMK 
+SK104_25.LMK
+SK12.LMK
+SK13 (U-Profile, flat).LMK
+SK13 (U-Profile, upright).LMK 
+SK16.LMK
+SK31.LMK
+SK48.LMK
+SK88.LMK
+TO-78-SOGUTUCU.LMK
+U-Profile (25x12mm, flat).LMK 
+U-Profile (25x12mm, upright).LMK
+
+<strong>MAKROS\LIB\SWIC-BUTON\ (33)</strong>
+
+BUTON
+_12.lmk 
+_18.lmk 
+2-konum-standart.LMK
+Alps mini Schalter.LMK
+Alps Schalter mit LED.LMK 
+DIL16 DIP switch a01.LMK
+DIL16 DIP switch smd a1.LMK 
+DIL2 DIP switch a01.LMK 
+DIL9 DIP switch a01.LMK 
+DIL-Schalter 10pol.lmk
+DIL-Schalter 12pol.lmk
+DIL-Schalter 2pol.lmk 
+DIL-Schalter 3pol.lmk 
+DIL-Schalter 4pol.lmk 
+DIL-Schalter 6pol.lmk 
+DIL-Schalter 8pol.lmk 
+ELMA Drehschalter.LMK 
+Lorlin 2x6 Drehschalter.LMK 
+Lorlin 4x6 Drehschalter.LMK 
+Monacor Drehschalter.LMK
+qq6.lmk 
+SW2.LMK 
+Switch DS-xx a0.LMK 
+Switch DS-xx a1.LMK 
+Switch DTS-32 a0.LMK
+Switch DTSM-20-13N a.LMK
+Switch DTSM-32 a1.LMK 
+Switch PSW-3 fix a.LMK
+Switch PSW-3 fix smd a.LMK
+Switch SWT-20-13N a.LMK 
+Switch SWT-20-13N a1.LMK
+toggle-2-konum-dik.LMK
+toggle-uzun-bacak.lmk 
+
+<strong>MAKROS\LIB\SWIC-BUTON\-BUTON\ (3)</strong>
+
+Btn.LMK 
+buton-standart.LMK
+SWT6-V.LMK
+
+<strong>MAKROS\SMD-LIB\ (0)</strong>
+
+<d-pak <mix="" <smd="" -="" capacitors="" diyot="" ipc782="" lcc="" mlf="" mo136="" plcc="" qfp="" resistors="" soic="" soj="" sop="" <strong="">MAKROS\SMD-LIB\D-PAK\ (3)
+
+D2-Pak S.LMK
+D2-Pak.LMK
+D-Pak.LMK 
+
+<strong>MAKROS\SMD-LIB\MIX\ (30)</strong> 
+
+A3080.LMK 
+ARCO466.LMK 
+CAY16.LMK 
+CH-4706.LMK 
+ETRX35X-ZigBee-Modules.LMK
+FT232.LMK 
+FT232RL.LMK 
+HF3-56.LMK
+HJK 481.LMK 
+JPS-2-1.LMK 
+LEA-4H.LMK
+LNK30x.LMK
+LT1963A-EQ.LMK
+MAX1675.LMK 
+MCP1525 kkTO92.LMK
+MCP1541kkkTO92.LMK
+MLX90614.LMK
+MPS700.LMK
+MPX4115A.LMK
+MPX5010.LMK 
+MPXHZ6115A.LMK
+MPXV5004DP.LMK
+QCN5D.LMK 
+QFN-16.LMK
+RC1240.LMK
+SCPQ 21,4.LMK 
+SDR0604.LMK 
+SDR0805.LMK 
+SDR1006.LMK 
+WS2801.lmk
+
+<strong>MAKROS\SMD-LIB\SMD - Capacitors\ (0) </strong>
+
+<normal <tantal="" <strong="">MAKROS\SMD-LIB\SMD - Capacitors\Normal\ (13) 
+
+C0402.LMK 
+C0504.LMK 
+C0603.LMK 
+C0805.LMK 
+C1206.LMK 
+C1210.LMK 
+C1812.LMK 
+C1825.LMK 
+CHIP_A.LMK
+CHIP_B.LMK
+CHIP_C.LMK
+CHIP_D.LMK
+CHIP_E.LMK
+
+<strong>MAKROS\SMD-LIB\SMD - Capacitors\Tantal\ (21) </strong>
+
+CHIP_B.LMK
+CHIP_D.LMK
+TAJ-A.LMK 
+TAJ-B.LMK 
+TAJ-C.LMK 
+TAJ-D.LMK 
+TAJ-E.LMK 
+TAJ-M.LMK 
+TAJ-N.LMK 
+TAJ-R.LMK 
+TAJ-S.LMK 
+TAJ-T.LMK 
+TAZ-A.LMK 
+TAZ-B.LMK 
+TAZ-C.LMK 
+TAZ-D.LMK 
+TAZ-E.LMK 
+TAZ-F.LMK 
+TAZ-G.LMK 
+TAZ-H.LMK 
+TAZ-R.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - DIYOT\ (68) </strong>
+
+bridge.LMK
+Diode (0603) CD0603-B0240 a1.LMK
+Diode (0603) CD0603-Z5V1 a1.LMK 
+Diode (0603) CD0603-Z5V6 a1.LMK 
+Diode (1005) CD1005-B0240 a1.LMK
+Diode (1005) CD1005-Z5V1 a1.LMK 
+Diode (Mini-MELF) TMMBAT48 a1.LMK 
+Diode (Mini-MELF) TZMC11 a01.LMK
+Diode (Mini-MELF) TZMC12 a01.LMK
+Diode (Mini-MELF) TZMC22 a01.LMK
+Diode (Mini-MELF) TZMC4V3 a01.LMK 
+Diode (Mini-MELF) TZMC4V7 a11.LMK 
+Diode (Mini-MELF) TZMC5V1 a01.LMK 
+Diode (Mini-MELF) TZMC5V1 a11.LMK 
+Diode (Mini-MELF) TZMC5V6 a01.LMK 
+Diode (Mini-MELF) TZMC5V6 a11.LMK 
+Diode (SMA) 10MQ100N a1.LMK 
+Diode (SMA) SK34A a1.LMK
+Diode (SMA) US1M a1.LMK 
+Diode (SMB) P6SMB20CA a1.LMK
+Diode (SMB) P6SMB30A a1.LMK 
+Diode (SMC) 1.5SMC12A a1.LMK
+Diode (SMC) 1.5SMC20CA a1.LMK 
+Diode (SMC) 1.5SMC30A a1.LMK
+Diode (SMC) 1.5SMC39A a1.LMK
+Diode (SMC) 1.5SMC68A a1.LMK
+Diode (SMC) SK510C a1.LMK 
+Diode (SOT-23) HSMS2802 a1.LMK
+MELF.LMK
+Mini-MELF.LMK 
+RSOT-143.LMK
+RSOT-223.LMK
+RSOT-23.LMK 
+RSOT-323.LMK
+RSOT-89.LMK 
+SOD-110.LMK 
+SOD-123.LMK 
+SOD-323.LMK 
+SOD-80.LMK
+SOT-143.LMK 
+SOT-143R.LMK
+SOT223 BDP951 a.LMK 
+SOT223 BDP952 a.LMK 
+SOT223 LM1117IMP-3.3 a.LMK
+SOT223 LM2937IMP5.0 a.LMK 
+SOT-223.LMK 
+SOT23 BC807-25 pnp a1.LMK 
+SOT23 BC817-25 npn a1.LMK 
+SOT23 IRLML2402 a0.LMK
+SOT23 IRLML2803 a1.LMK
+SOT23 Rekomended Motorola a.LMK 
+SOT23.LMK 
+SOT-23.LMK
+SOT-23-5.LMK
+SOT235-L.LMK
+SOT-23-6.LMK
+SOT-323.LMK 
+SOT-343.LMK 
+SOT-363.LMK 
+SOT89 BCX53-16 pnp a01.LMK
+SOT89 BCX56-16 npn a01.LMK
+SOT89 L78L05ABUTR a01.LMK 
+SOT-89.LMK
+WSOT-143.LMK
+WSOT-223.LMK
+WSOT-23.LMK 
+WSOT-323.LMK
+WSOT-89.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - IPC782\ (46)</strong>
+
+CFP-MO-00310.LMK
+CFP-MO-00314.LMK
+CFP-MO-00410.LMK
+CFP-MO-00414.LMK
+CFP-MO-00416.LMK
+CFP-MO-01820.LMK
+CFP-MO-01924.LMK
+CFP-MO-01928.LMK
+CFP-MO-02036.LMK
+CFP-MO-02040.LMK
+CFP-MO-02116.LMK
+CFP-MO-02124.LMK
+CFP-MO-02136.LMK
+CFP-MO-02220.LMK
+CFP-MO-02242.LMK
+CFP-MO-02336.LMK
+CFP-MO-02350.LMK
+I2012CHIP.LMK 
+I2825PREC.LMK 
+I3216CHIP.LMK 
+I32253230MOLD.LMK 
+I3225PREC.LMK 
+I4025MOLD.LMK 
+I4516CHIP.LMK 
+I4532MOLD.LMK 
+I4532PREC.LMK 
+I5038PREC.LMK 
+I5650MOLD.LMK 
+I8530MOLD.LMK 
+MELF0805.LMK
+MELF1206.LMK
+MELF1406.LMK
+MELF2309.LMK
+MELF-SOD-80.LMK 
+MELF-SOD-87.LMK 
+SMB.LMK 
+SOD-123.LMK 
+SOT-143.LMK 
+SOT-223.LMK 
+SOT-23REFLOW.LMK
+SOT-89.LMK
+TC3216.LMK
+TC53284.6.LMK 
+TC6032.LMK
+TC7343.LMK
+TO-252.LMK
+
+<strong>MAKROS\SMD-LIB\SMD - LCC\ (11) </strong>
+
+LCC-100.LMK 
+LCC-125.LMK 
+LCC-156.LMK 
+LCC-16.LMK
+LCC-20.LMK
+LCC-24.LMK
+LCC-28.LMK
+LCC-44.LMK
+LCC-52.LMK
+LCC-68.LMK
+LCC-84.LMK
+
+<strong>MAKROS\SMD-LIB\SMD - MLF\ (8)</strong>
+
+MLF 24pin 0.5mm.LMK 
+MLF 32pin 0.5mm.LMK 
+MLF 48pin 0.5mm.LMK 
+MLF_p1.LMK
+MLF_p2.LMK
+MLF_p3.LMK
+MLF_p4.LMK
+MLF_p5.LMK
+
+<strong>MAKROS\SMD-LIB\SMD - MO136\ (29) </strong>
+
+MO136BA.LMK 
+MO136BB.LMK 
+MO136BC.LMK 
+MO136BD.LMK 
+MO136BE.LMK 
+MO136BF.LMK 
+MO136BG.LMK 
+MO136BH.LMK 
+MO136BJ.LMK 
+MO136BK.LMK 
+MO136BL.LMK 
+MO136BM.LMK 
+MO136BN.LMK 
+MO136BP.LMK 
+MO136BQ.LMK 
+MO136BR.LMK 
+MO136BS.LMK 
+MO136BT.LMK 
+MO136BU.LMK 
+MO136BV.LMK 
+MO136BW.LMK 
+MO136BX.LMK 
+MO136DA.LMK 
+MO136DB.LMK 
+MO136DC.LMK 
+MO136DD.LMK 
+MO136DE.LMK 
+MO136DF.LMK 
+MO136DG.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - PLCC\ (44)</strong>
+
+PLCC_20.LMK 
+PLCC_20x.lmk
+PLCC_28.LMK 
+plcc_28x.lmk
+PLCC_32.LMK 
+PLCC_32x.lmk
+PLCC_44.LMK 
+plcc_44x.lmk
+PLCC_52.LMK 
+PLCC_52x.lmk
+PLCC_68.LMK 
+PLCC_68x.lmk
+PLCC_84.LMK 
+PLCC_84x.lmk
+PLCC-100.LMK
+PLCC-124.LMK
+PLCC-20.LMK 
+PLCC-20-2.LMK 
+PLCC-20x.lmk
+PLCC-28.LMK 
+PLCC-32.LMK 
+PLCC-32x.lmk
+PLCC-44.LMK 
+PLCC-44x.lmk
+PLCC50x53916.LMK
+PLCC-52.LMK 
+PLCC-52x.lmk
+PLCC-68.LMK 
+PLCC-68x.lmk
+PLCC80x53916.LMK
+PLCC-84.LMK 
+PLCC-84x.lmk
+PLCCPQFBx32.LMK 
+PLCC-PQFBx32.LMK
+PLCCPQFBx44.LMK 
+PLCC-PQFBx44.LMK
+PLCC-R-18.LMK 
+PLCC-R-18L.LMK
+PLCC-R-22.LMK 
+PLCC-R-28.LMK 
+PLCC-R-32.LMK 
+PLCCx_20.LMK
+PLCCx_28.LMK
+PLCCx-28.LMK
+
+<strong>MAKROS\SMD-LIB\SMD - QFP\ (0)</strong>
+
+<cqfp <lqfp="" <pqfp="" <qfp="" <sqfp="" <tqfp="" <strong="">MAKROS\SMD-LIB\SMD - QFP\CQFP\ (13)
+
+CQFP-100.LMK
+CQFP-120.LMK
+CQFP-128.LMK
+CQFP-132.LMK
+CQFP-148.LMK
+CQFP-164.LMK
+CQFP-196.LMK
+CQFP-28.LMK 
+CQFP-36.LMK 
+CQFP-44.LMK 
+CQFP-52.LMK 
+CQFP-68.LMK 
+CQFP-84.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - QFP\LQFP\ (6) </strong>
+
+32LQFP.LMK
+44LQFP.LMK
+48LQFP.LMK
+LQFP100 AT91SAM7X512 a0.LMK 
+LQFP64 AT91SAM7S256 a0.LMK
+STM32F103-LQFP64.LMK
+
+<strong>MAKROS\SMD-LIB\SMD - QFP\PQFP\ (6) </strong>
+
+PQFP-100.LMK
+PQFP-132.LMK
+PQFP-164.LMK
+PQFP-196.LMK
+PQFP-244.LMK
+PQFP-84.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - QFP\QFP\ (20) </strong>
+
+QFP-10X10-44.LMK
+QFP-10X10-52.LMK
+QFP-12X12-48.LMK
+QFP-12X12-64.LMK
+QFP-14X14-64.LMK
+QFP-14X14-80.LMK
+QFP-14X20-100.LMK 
+QFP-14X20-120.LMK 
+QFP-14X20-128.LMK 
+QFP-14X20-152.LMK 
+QFP-14X20-160.LMK 
+QFP-14X20-208.LMK 
+QFP-14X20-216.LMK 
+QFP-14X20-80.LMK
+QFP-28X28-120.LMK 
+QFP-28X28-128.LMK 
+QFP-28X28-144.LMK 
+QFP-28X28-160.LMK 
+QFP-32X32-184.LMK 
+QFP-40X40-232.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - QFP\SQFP\ (108) </strong>
+
+SQFP-10X10-112.LMK
+SQFP-10X10-120.LMK
+SQFP-10X10-64.LMK 
+SQFP-10X10-72.LMK 
+SQFP-10X10-80.LMK 
+SQFP-10X10-88.LMK 
+SQFP-10X14-100.LMK
+SQFP-10X14-108.LMK
+SQFP-10X14-140.LMK
+SQFP-10X14-148.LMK
+SQFP-10X14-80.LMK 
+SQFP-10X14-88.LMK 
+SQFP-12X12-100.LMK
+SQFP-12X12-108.LMK
+SQFP-12X12-136.LMK
+SQFP-12X12-144.LMK
+SQFP-12X12-80.LMK 
+SQFP-12X12-88.LMK 
+SQFP-14X14-100.LMK
+SQFP-14X14-108.LMK
+SQFP-14X14-120.LMK
+SQFP-14X14-128.LMK
+SQFP-14X14-168.LMK
+SQFP-14X14-176.LMK
+SQFP-20X20-144.LMK
+SQFP-20X20-152.LMK
+SQFP-20X20-184.LMK
+SQFP-20X20-192.LMK
+SQFP-20X20-248.LMK
+SQFP-20X20-256.LMK
+SQFP-20X28-176.LMK
+SQFP-20X28-184.LMK
+SQFP-20X28-224.LMK
+SQFP-20X28-232.LMK
+SQFP-20X28-300.LMK
+SQFP-20X28-308.LMK
+SQFP-24X24-176.LMK
+SQFP-24X24-184.LMK
+SQFP-24X24-224.LMK
+SQFP-24X24-232.LMK
+SQFP-24X24-296.LMK
+SQFP-24X24-304.LMK
+SQFP-28X28-208.LMK
+SQFP-28X28-216.LMK
+SQFP-28X28-264.LMK
+SQFP-28X28-272.LMK
+SQFP-28X28-352.LMK
+SQFP-28X28-360.LMK
+SQFP-28X40-256.LMK
+SQFP-28X40-264.LMK
+SQFP-28X40-324.LMK
+SQFP-28X40-332.LMK
+SQFP-28X40-432.LMK
+SQFP-28X40-440.LMK
+SQFP-32X32-240.LMK
+SQFP-32X32-248.LMK
+SQFP-32X32-304.LMK
+SQFP-32X32-312.LMK
+SQFP-32X32-400.LMK
+SQFP-32X32-408.LMK
+SQFP-36X36-272.LMK
+SQFP-36X36-280.LMK
+SQFP-36X36-344.LMK
+SQFP-36X36-352.LMK
+SQFP-36X36-456.LMK
+SQFP-36X36-464.LMK
+SQFP-40X40-304.LMK
+SQFP-40X40-312.LMK
+SQFP-40X40-384.LMK
+SQFP-40X40-392.LMK
+SQFP-40X40-512.LMK
+SQFP-40X40-520.LMK
+SQFP-44X44-336.LMK
+SQFP-44X44-344.LMK
+SQFP-44X44-424.LMK
+SQFP-44X44-432.LMK
+SQFP-44X44-568.LMK
+SQFP-44X44-576.LMK
+SQFP-5X5-24.LMK 
+SQFP-5X5-32.LMK 
+SQFP-5X5-32-F.LMK 
+SQFP-5X5-40.LMK 
+SQFP-5X5-48.LMK 
+SQFP-5X5-56.LMK 
+SQFP-5X7-32.LMK 
+SQFP-5X7-40.LMK 
+SQFP-5X7-44.LMK 
+SQFP-5X7-52.LMK 
+SQFP-5X7-60.LMK 
+SQFP-5X7-68.LMK 
+SQFP-6X6-32.LMK 
+SQFP-6X6-40.LMK 
+SQFP-6X6-40-F.LMK 
+SQFP-6X6-48.LMK 
+SQFP-6X6-56.LMK 
+SQFP-6X6-64.LMK 
+SQFP-7X10-100.LMK 
+SQFP-7X10-52.LMK
+SQFP-7X10-60.LMK
+SQFP-7X10-68.LMK
+SQFP-7X10-76.LMK
+SQFP-7X10-92.LMK
+SQFP-7X7-40.LMK 
+SQFP-7X7-48.LMK 
+SQFP-7X7-56.LMK 
+SQFP-7X7-64.LMK 
+SQFP-7X7-72.LMK 
+SQFP-7X7-80.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - QFP\TQFP\ (24)</strong>
+
+ATMega1632.LMK
+Atmega328P AU.LMK 
+ATMega64128.LMK 
+ATMega8.LMK 
+ATMega8-16AU.LMK
+ATMega8515.LMK
+TQFP100 AT32UC3A1256 a0.LMK 
+TQFP100 ATMega2560 a.LMK
+TQFP100 ATMega2560-16AU a1.LMK
+TQFP32 ATMega328P-20AU a1.LMK 
+TQFP32 ATMega8-16AU a1.LMK
+TQFP32 ATMega88-20AU a1.LMK 
+TQFP44 ATMega1284-20AU a1.LMK 
+TQFP44 ATMega32-16AU a1.LMK 
+TQFP48 AT32UC3B164 a.LMK
+TQFP64 ATMega1281-16AU a1.LMK 
+TQFP64 ATMega128-16AU a01.LMK 
+TQFP64 ATMega128-16AU a1.LMK
+TQPF 32pin 0.8mm.LMK
+TQPF 40pin 0.8mm.LMK
+TQPF 48pin 0.8mm.LMK
+TQPF 64pin 0.5mm.LMK
+TQPF 64pin 0.8mm.LMK
+TQPF 80pin 0.5mm.LMK
+
+<strong>MAKROS\SMD-LIB\SMD - Resistors\ (9)</strong>
+
+MELF.LMK
+Mini-MELF.LMK 
+R0402.LMK 
+R0603.LMK 
+R0805.LMK 
+R1206.LMK 
+R1210.LMK 
+R2010.LMK 
+R2512.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - SOIC\ (15)</strong>
+
+SOIC-14.lmk 
+SOIC-14-W.lmk 
+SOIC-16.lmk 
+SOIC-16-W.lmk 
+SOIC-20-W.lmk 
+SOIC-24-W.lmk 
+SOIC-24-X.lmk 
+SOIC-28-W.lmk 
+SOIC-28-X.lmk 
+SOIC-32-W.lmk 
+SOIC-32-X.lmk 
+SOIC-36-W.lmk 
+SOIC-36-X.lmk 
+SOIC-8.lmk
+SOIC-8-W.lmk
+
+<strong>MAKROS\SMD-LIB\SMD - SOJ\ (32) </strong>
+
+SOJ-14300.LMK 
+SOJ-14350.LMK 
+SOJ-14400.LMK 
+SOJ-14450.LMK 
+SOJ-16300.LMK 
+SOJ-16350.LMK 
+SOJ-16400.LMK 
+SOJ-16450.LMK 
+SOJ-18300.LMK 
+SOJ-18350.LMK 
+SOJ-18400.LMK 
+SOJ-18450.LMK 
+SOJ-20300.LMK 
+SOJ-20350.LMK 
+SOJ-20400.LMK 
+SOJ-20450.LMK 
+SOJ-22300.LMK 
+SOJ-22350.LMK 
+SOJ-22400.LMK 
+SOJ-22450.LMK 
+SOJ-24300.LMK 
+SOJ-24350.LMK 
+SOJ-24400.LMK 
+SOJ-24450.LMK 
+SOJ-26300.LMK 
+SOJ-26350.LMK 
+SOJ-26400.LMK 
+SOJ-26450.LMK 
+SOJ-28300.LMK 
+SOJ-28350.LMK 
+SOJ-28400.LMK 
+SOJ-28450.LMK 
+
+<strong>MAKROS\SMD-LIB\SMD - SOP\ (33) </strong>
+
+SOP-10.LMK
+SOP-10X14.LMK 
+SOP-10X16.LMK 
+SOP-10X18.LMK 
+SOP-10X20.LMK 
+SOP-12.LMK
+SOP-12X14.LMK 
+SOP-12X16.LMK 
+SOP-12X18.LMK 
+SOP-12X20.LMK 
+SOP-14.LMK
+SOP-16.LMK
+SOP-18.LMK
+SOP-20.LMK
+SOP-22.LMK
+SOP-24.LMK
+SOP-28.LMK
+SOP-30.LMK
+SOP-32.LMK
+SOP-36.LMK
+SOP-40.LMK
+SOP-42.LMK
+SOP-6.LMK 
+SOP-6X14.LMK
+SOP-6X16.LMK
+SOP-6X18.LMK
+SOP-6X20.LMK
+SOP-8.LMK 
+SOP-8X14.LMK
+SOP-8X16.LMK
+SOP-8X18.LMK
+SOP-8X20.LMK
+TSSOP-8 UCC2808APW-2 a0.LMK
+
+</cqfp></normal></d-pak></pre>
+<p><em>sprint layout makro, sprint layout macros, sprint layout 6 makros, sprint layout library</em></p>
+<h3>Sprint Layout Yeni Makrolar 27-11-2012</h3>
+<p><img src="Docs_files/sprint-layout-new-makros.png" alt="sprint-layout-new-makros" title="sprint-layout-new-makros" class="alignnone size-full wp-image-19983" width="590" height="300"></p>
+<p>220V-SOKET-YATIK.LMK<br>
+ATX-SOKET.LMK<br>
+ETD49.LMK<br>
+ETD44.LMK<br>
+klemens-4x.LMK<br>
+TO247+220.LMK<br>
+TO247.LMK<br>
+1-2w.LMK<br>
+1-8w.LMK<br>
+1-2w-dik.LMK</p>
+<h3>Sprint Layout Yeni Makrolar 26-01-2013</h3>
+<p><img src="Docs_files/sprint-layout-mix-makros.png" alt="sprint-layout-mix-makros" title="sprint-layout-mix-makros" class="alignnone size-full wp-image-21053" width="590" height="391"></p>
+<p><img src="Docs_files/sprint-layout-lcd-makros.png" alt="sprint-layout-lcd-makros" title="sprint-layout-lcd-makros" class="alignnone size-full wp-image-21054" width="590" height="331"></p>
+<p>20-pinICD-yatik.LMK<br>
+ATMEL-SAM7S256-ARM.LMK<br>
+battery-3xaaa.LMK<br>
+ENCODER.LMK<br>
+fare-adam.LMK<br>
+LCD Winstar WH1602A.LMK<br>
+led-simge.LMK<br>
+line-filter.LMK<br>
+LM1117M3L.LMK<br>
+MC1602CH-SYRU.LMK<br>
+ninja.LMK<br>
+pati.LMK<br>
+star-2.LMK<br>
+star.LMK<br>
+WH1602A-NGG-CT.LMK</p>
+<h3>Sprint Layout Yeni Makrolar 18-05-2013</h3>
+<p><img src="Docs_files/sprint-layout-makro-sprint-layout-macros-18-05-2013.png" alt="sprint-layout-makro-sprint-layout-macros-18-05-2013" title="sprint-layout-makro-sprint-layout-macros-18-05-2013" class="alignnone size-full wp-image-21610" width="620" height="537"></p>
+<p>7400.LMK<br>
+7406.LMK<br>
+IR2153.LMK<br>
+SCHA1B0100PBF-ALPS.LMK<br>
+TFT-3.2-SSD1289.LMK</p>
+<p><strong>ETD Serisi Trafo Makroları</strong> (<em>protel98se library çizimlerinden faydalınalarak hazırlandı</em>)</p>
+<p>ETD-29-K-H-13P.LMK<br>
+ETD-29-K-H-14P-3657.LMK<br>
+ETD-29-K-H-5.0.LMK<br>
+ETD-29-K-H-5.08.LMK<br>
+ETD-29-K-V-14P-3743.LMK<br>
+ETD-29-K-V-14P-EP.LMK<br>
+ETD-30-11-K-V-12P-LP.LMK<br>
+ETD-34-K-H-14P-DS.LMK<br>
+ETD-34-K-H-14P.LMK<br>
+ETD-34-K-H-7899.LMK<br>
+ETD-34-K-V-14P-3744.LMK<br>
+ETD-34-K-V-14P-5S-CHAMBER.LMK<br>
+ETD-34-K-V-14P-RUDY.LMK<br>
+ETD-34-K-V-14P.LMK<br>
+ETD-39-K-H-16P-DS.LMK<br>
+ETD-39-K-H-16P.LMK<br>
+ETD-39-K-V-16P-3748.LMK<br>
+ETD-39-K-V-16P.LMK<br>
+ETD-39-K-V-18P-2S.LMK<br>
+ETD-44-K-H-18P-3698.LMK<br>
+ETD-44-K-H-18P.LMK<br>
+ETD-44-K-V-16P.LMK<br>
+ETD-44-K-V-18P-3751.LMK<br>
+ETD-44-K-V-18P-MP.LMK<br>
+ETD-44-K-V-18P.LMK<br>
+ETD-49-K-H-20P-3701.LMK<br>
+ETD-49-K-H-20P-3752.LMK<br>
+ETD-49-K-H-20P.LMK<br>
+ETD-54-K-H-22P-CPH.LMK<br>
+ETD-54-K-H-22P-FUAN.LMK<br>
+ETD-54-K-H-24P-3693.LMK<br>
+ETD-59-K-H-24P.LMK<br>
+ETD-59-K-H-26P-3709.LMK<br>
+ETD-59-K-H-26P.LMK</p>
+<h3>Sprint Layout Yeni Makrolar 07-09-2014</h3>
+<p><img src="Docs_files/9-2014-sprint-layout-6-makros-sprint-layout-bibliotheken_002.png" alt="9-2014-sprint-layout-6-makros-sprint-layout-bibliotheken-sprint-layout-macros-1" class="alignnone size-full wp-image-23498" width="620" height="558"></p>
+<p><img src="Docs_files/9-2014-sprint-layout-6-makros-sprint-layout-bibliotheken_003.png" alt="9-2014-sprint-layout-6-makros-sprint-layout-bibliotheken-sprint-layout-macros-2" class="alignnone size-full wp-image-23499" width="620" height="539"></p>
+<p><img src="Docs_files/9-2014-sprint-layout-6-makros-sprint-layout-bibliotheken-spr.png" alt="9-2014-sprint-layout-6-makros-sprint-layout-bibliotheken-sprint-layout-macros-3" class="alignnone size-full wp-image-23501" width="620" height="589"></p>
+<p>4×4-keypad.LMK<br>
+5200-SERIES-BARRIER-BLOCKS\5202-3.LMK<br>
+5200-SERIES-BARRIER-BLOCKS\5202-4.LMK<br>
+5200-SERIES-BARRIER-BLOCKS\5202-5.LMK<br>
+5200-SERIES-BARRIER-BLOCKS\5202-6.LMK<br>
+57mm-sm-412301.LMK<br>
+A3080-mause.LMK<br>
+BTM222.LMK<br>
+Buzzer-standart-HCM1203A.LMK<br>
+EB500.LMK<br>
+EE25-N87.LMK<br>
+Encoder-PEC12-4225F-S0024.LMK<br>
+FYT-5631AS.LMK<br>
+GAINSPAN-GS1011MIE-WIFI.LMK<br>
+gitar-jak-stereo-standart.LMK<br>
+KBU8M.LMK<br>
+LM4780.LMK<br>
+Nokia-2660-2760.LMK<br>
+ok-simge.LMK<br>
+PCB-TIP-SIGORTA.LMK<br>
+RX5000.LMK<br>
+SD-MMC.LMK<br>
+Si4432-RF-Transceiver.LMK<br>
+sim-soket.LMK<br>
+SIM900.LMK<br>
+SIM900D.LMK<br>
+SIM91228-3001.LMK<br>
+TDA7386-7560.LMK<br>
+tehlike-1.LMK<br>
+tehlike-2.LMK<br>
+USB-PLUG-PCB.LMK<br>
+usb-soket-USBA-1P-R.LMK<br>
+WS2812B-RGB-LED.LMK</p>
+<h3>Sprint Layout Yeni Makrolar 09-02-2017</h3>
+<p><img src="Docs_files/27-2017-sprint-layout-6-makros-sprint-layout-bibliotheke_002.png" alt="27-2017-sprint-layout-6-makros-sprint-layout-bibliotheken-sprint-layout-arduino" class="aligncenter size-full wp-image-24791" width="522" height="595"></p>
+<p><img src="Docs_files/27-2017-sprint-layout-6-makros-sprint-layout-bibliotheken-sp.png" alt="27-2017-sprint-layout-6-makros-sprint-layout-bibliotheken-sprint-layout-macros" class="aligncenter size-full wp-image-24792" width="602" height="452"></p>
+<p>11W.LMK<br>
+220v-anahtar.LMK<br>
+320volt.com.txt<br>
+4W-DIK.LMK<br>
+4W.LMK<br>
+5W-VER-SLIM.LMK<br>
+5W-VERTICAL.LMK<br>
+9W-DIK.LMK<br>
+9W.LMK<br>
+AM2302(DHT22).LMK<br>
+AMS1117.LMK<br>
+Sprint Layout Arduino\Ethernet.LMK<br>
+Sprint Layout Arduino\Leonardo.LMK<br>
+Sprint Layout Arduino\Mega-2560.LMK<br>
+Sprint Layout Arduino\Micro.LMK<br>
+Sprint Layout Arduino\Mini.LMK<br>
+Sprint Layout Arduino\Nano.LMK<br>
+Sprint Layout Arduino\Uno.LMK<br>
+ATX-24PIN-YATIK.LMK<br>
+ATX-24PIN.LMK<br>
+ATX-SOKET-YATIK.LMK<br>
+ATXmega128a4u.LMK<br>
+BMP180-MODUL.LMK<br>
+dc-std.LMK<br>
+EE25-N87.LMK<br>
+EPS8266-ESP12.LMK<br>
+ESP3212.LMK<br>
+GMS-G6.LMK<br>
+ILI9341-TFT-MODUL.LMK<br>
+KBPC-2510.LMK<br>
+led5m.LMK<br>
+li-ion-pil-soket.LMK<br>
+MC34063.LMK<br>
+MH-Z19.LMK<br>
+micro-usb.LMK<br>
+MS632FE-batt.LMK<br>
+Nokia-2660-2760.LMK<br>
+NOKIA-6100.LMK<br>
+Nokia1202.LMK<br>
+pcb-pot.LMK<br>
+PG203J.LMK<br>
+sd-card.LMK<br>
+SD-MMC.LMK<br>
+Si4430BDY.LMK<br>
+SIM300D.LMK<br>
+simge\AKREP.LMK<br>
+simge\AKREP2.LMK<br>
+simge\ANKA.LMK<br>
+simge\at.LMK<br>
+simge\danger-2.LMK<br>
+simge\dino.LMK<br>
+simge\ELLE.LMK<br>
+simge\HAVYA-KAFA.LMK<br>
+simge\muzik.LMK<br>
+simge\off.LMK<br>
+simge\Open-source.LMK<br>
+simge\play-set.LMK<br>
+simge\sinek.LMK<br>
+simge\tehlike-3.LMK<br>
+simge\top.LMK<br>
+Standart-Born-Banana-Soket.LMK<br>
+Standart-ON-Off-Buton.LMK<br>
+STANDAT-BOBIN.LMK<br>
+USB-A-MALE.LMK<br>
+USB-ERK-SMD.LMK<br>
+USB-SEM.LMK<br>
+xbee-modul.LMK</p>
+<p><strong>Ek olarak SMD MAKRO arşivinde MIX kılasörü güncellendi</strong></p>
+<p>A3080.LMK<br>
+ARCO466.LMK<br>
+CAY16.LMK<br>
+CH-4706.LMK<br>
+ETRX35X-ZigBee-Modules.LMK<br>
+FT232.LMK<br>
+FT232RL.LMK<br>
+HF3-56.LMK<br>
+HJK 481.LMK<br>
+JPS-2-1.LMK<br>
+LEA-4H.LMK<br>
+LNK30x.LMK<br>
+LT1963A-EQ.LMK<br>
+MAX1675.LMK<br>
+MCP1525 kkTO92.LMK<br>
+MCP1541kkkTO92.LMK<br>
+MLX90614.LMK<br>
+MPS700.LMK<br>
+MPX4115A.LMK<br>
+MPX5010.LMK<br>
+MPXHZ6115A.LMK<br>
+MPXV5004DP.LMK<br>
+QCN5D.LMK<br>
+QFN-16.LMK<br>
+RC1240.LMK<br>
+SCPQ 21,4.LMK<br>
+SDR0604.LMK<br>
+SDR0805.LMK<br>
+SDR1006.LMK<br>
+WS2801.lmk</p>
+<p><a title="Sprint Layout Makro Arşivim" href="http://320volt.com/sprint-layout-makro-arsivim/">Sprint Layout Makro Arşivim</a></p>
+<p><strong>Dosya indirme LINK listesi (TXT formatında)</strong>  <a rel="nofollow" href="http://320volt.com/wp-content/list/19926.zip">link-19926.zip</a> <!--googleoff: index--> şifre-pass: 320volt.com <!--googleon: index--></p>
+ </div>
+
+<script async="" src="Docs_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 200px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0182120847846351" data-ad-slot="3816932029" data-adsbygoogle-status="done"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:801px;background-color:transparent;"><ins id="aswift_2_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:801px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;width:801px;height:200px;" width="801" height="200" frameborder="0"></iframe></ins></ins></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+&nbsp;
+
+<div class="related-posts"><h3>Benzer Yazılar</h3><div class="postauthor-top"><ul><li class=" rpexcerpt1 ">
+<a rel="nofollow" class="relatedthumb" href="http://320volt.com/pic18f2550-usb-arabirim-delphi-labview-linux-vb-vc/" title="PIC18F2550 usb arabirim delphi, labview, linux, vb, vc++">
+<span class="rthumb">
+<img src="Docs_files/pic18f2550-usb-delphi-labview-linux-vb-120x120.png" alt="PIC18F2550 usb arabirim delphi, labview, linux, vb, vc++" class="wp-post-image" width="120" height="120"></span><span>PIC18F2550 usb arabirim delphi, labview, linux, vb, vc++</span></a></li>
+<li class="last rpexcerpt2 last">
+<a rel="nofollow" class="relatedthumb" href="http://320volt.com/basit-visual-basic-projeleri/" title="Basit Visual Basic Projeleri">
+<span class="rthumb">
+<img src="Docs_files/basit-visual-basic-projeleri-120x120.jpg" alt="Basit Visual Basic Projeleri" class="wp-post-image" width="120" height="120"></span><span>Basit Visual Basic Projeleri</span></a></li>
+</ul></div></div><p class="post-tags"><span>Etiketler:</span> <a href="http://320volt.com/tag/sprint-layout/" rel="tag">sprint layout</a>   <a href="http://320volt.com/tag/sprint-layout-6-makros/" rel="tag">sprint layout 6 makros</a>   <a href="http://320volt.com/tag/sprint-layout-bibliotheken/" rel="tag">sprint layout bibliotheken</a>   <a href="http://320volt.com/tag/sprint-layout-library/" rel="tag">sprint layout library</a>   <a href="http://320volt.com/tag/sprint-layout-macros/" rel="tag">sprint layout macros</a>   <a href="http://320volt.com/tag/sprint-layout-makro/" rel="tag">sprint layout makro</a></p></div></div>
+<!-- You can start editing here. -->
+<div id="comments"><div class="total-comments">YORUM</div><ol class="commentlist"><div class="navigation"><div class="alignleft"></div><div class="alignright"></div></div><li class="comment even thread-even depth-1" id="li-comment-22855"><div id="comment-22855" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Kasamiko</span><time>2013/04/28</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=22855#respond" onclick='return addComment.moveForm( "comment-22855", "22855", "respond", "19926" )' aria-label="Cevap Kasamiko ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Hi,</p>
+<p>I wonder why almost all the macros doesn’t not show up in the preview?</p>
+<p>Is this compatible with version 5?</p>
+<p>Thank!</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment byuser comment-author-gevv bypostauthor odd alt depth-2" id="li-comment-22856"><div id="comment-22856" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2013/04/28</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=22856#respond" onclick='return addComment.moveForm( "comment-22856", "22856", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>I’m sorry new macros only version 6</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment even depth-3" id="li-comment-22995"><div id="comment-22995" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Kasamiko</span><time>2013/05/08</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=22995#respond" onclick='return addComment.moveForm( "comment-22995", "22995", "respond", "19926" )' aria-label="Cevap Kasamiko ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Installed Version 6. Makros works perfectly..</p>
+<p>Thanks!</p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-22980"><div id="comment-22980" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Bahattin</span><time>2013/05/07</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=22980#respond" onclick='return addComment.moveForm( "comment-22980", "22980", "respond", "19926" )' aria-label="Cevap Bahattin ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Sayın gevv yazılımla gelen ve sizin arşivde olan iki adet rj45 makrosu var. Elimde olan rj45 ile bacak aralıkları tutmuyor.<br>
+Acaba elimdeki malzemede mi sıkıntı var. Başka yerdende alıp denedim fakat yine aynı.<br>
+Bir çözüm var mı bildiğiniz?<br>
+Teşekkürler.</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment byuser comment-author-gevv bypostauthor even depth-2" id="li-comment-22985"><div id="comment-22985" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2013/05/07</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=22985#respond" onclick='return addComment.moveForm( "comment-22985", "22985", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>şimdiye
+ kadar rj45 kullanmadım ama  RJ45-4 ve 8 makroları orjinal yani 
+yapımcının hazrladığı makrolar  elinizdeki malzemeye göre  ayarlamak 
+istiyorsanız malzeme üzerinde sağ tıklayıp “split group” yapın  makro 
+serbest kalacaktır istediğiniz düzenlemeyi yapın   özellikle pedleri 
+ayarlarken maus yerine klavyede ki “ok” tuşlarını kullanın daha hassas 
+ayar yaparsınız   işiniz bittiğinde makroyu maus ile komple seçip 
+üzerinde sağ tıklayın “build group” yapın</p>
+<p>video;</p>
+<p>[youtube]http://www.youtube.com/watch?v=ibholEQmsxM[/youtube]</p>
+<p><a target="_blank" href="http://www.youtube.com/watch?v=ibholEQmsxM" rel="nofollow">http://www.youtube.com/watch?v=ibholEQmsxM</a></p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1" id="li-comment-22988"><div id="comment-22988" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Bahattin</span><time>2013/05/07</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=22988#respond" onclick='return addComment.moveForm( "comment-22988", "22988", "respond", "19926" )' aria-label="Cevap Bahattin ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Detaylı cevap için teşekür. ediyorum.<br>
+Son olarak 5 ile 6 arasında çok fark var mı?<br>
+Halihazırda 5 kullanıyorum tavsiye eder misiniz 6’yı.</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment byuser comment-author-gevv bypostauthor even depth-2" id="li-comment-22990"><div id="comment-22990" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2013/05/07</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=22990#respond" onclick='return addComment.moveForm( "comment-22990", "22990", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>5 sürümüne ait hataların giderilmesinin yanı sıra bir çok ufak tefek özellik ve iyileştirme var </p>
+<p>“Anti-Aliasing” sayesinde bozuk köşeler çok daha düzgün, yakımlaştırma süper,  çizime malzeme eklerken bilgi eklenebiliyor</p>
+<p> export bölümüne eklemeler yapılmış yolları tam pad merkezine 
+yerleştirmek için yakalama modu var  düzenleli yerleşim için otomatik 
+tutma özelliği var</p>
+<p>daha hassas çizimler yapılabiliyor  ayrıca  yolların,  düzgün olup 
+olmadığı  renklendirme ile belirtiliyor  mesela videoda görmüşsünüzdür 
+makronun dış çerçevesini çekiştirirken bir yeşil bir kırmızı olmuştur 
+düzgün olduğunda yeşil oluyor,  yolların ucunu düzleştirebiliyorsunuz vb
+   </p>
+<p>öyle belirğin büyük eklemler  yok ama  şuan çok daha kullanışlı ve 
+çizimi daha da kolaylaştırmışlar 5 sürümünde olan bir çok hatayı 
+gidermişler</p>
+<p><a target="_blank" href="http://www.abacom-online.de/uk/html/sprint-layout.html" rel="nofollow">http://www.abacom-online.de/uk/html/sprint-layout.html</a></p>
+<p>sayfada olmayan güncelleme ile gelen yanilikler;</p>
+<p>New option: Zones as restricted area in the soldermask<br>
+Tilde “~” character defined<br>
+New Import-/Export filter for textfiles (Text-IO)</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment odd alt depth-3" id="li-comment-22991"><div id="comment-22991" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Bahattin</span><time>2013/05/07</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=22991#respond" onclick='return addComment.moveForm( "comment-22991", "22991", "respond", "19926" )' aria-label="Cevap Bahattin ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Çok teşekkür. ediyorum.</p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<li class="comment even thread-odd thread-alt depth-1" id="li-comment-23370"><div id="comment-23370" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">gevv</span><time>2013/05/18</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=23370#respond" onclick='return addComment.moveForm( "comment-23370", "23370", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>yeni makrolar eklendi</p>
+</div></div></li>
+	<!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1" id="li-comment-23769"><div id="comment-23769" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Bahattin</span><time>2013/06/22</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=23769#respond" onclick='return addComment.moveForm( "comment-23769", "23769", "respond", "19926" )' aria-label="Cevap Bahattin ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Merhaba,<br>
+versiyon 6’yı denedim. Gerçekten çizim yapmak çok kolay olmuş.<br>
+5’den aktardığım makroları ekledikten sonra parçalama işlemini yapamıyorum. Bu konuda yardımcı olabilir misiniz? </p>
+<p><a target="_blank" href="http://l1306.hizliresim.com/1b/q/pgppl.jpg" rel="nofollow">http://l1306.hizliresim.com/1b/q/pgppl.jpg</a></p>
+<p>Resimde olduğu gibi eleman seçili olduğu halde kilit açma aktif olmuyor.</p>
+<p>Saygılar.</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment byuser comment-author-gevv bypostauthor even depth-2" id="li-comment-23771"><div id="comment-23771" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2013/06/22</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=23771#respond" onclick='return addComment.moveForm( "comment-23771", "23771", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>elemanın üzerinde sağ tıkladığınızda çıkan menüde split grup yazan yere tıklayın olması lazım</p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-23772"><div id="comment-23772" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Bahattin</span><time>2013/06/22</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=23772#respond" onclick='return addComment.moveForm( "comment-23772", "23772", "respond", "19926" )' aria-label="Cevap Bahattin ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p><a target="_blank" href="http://l1306.hizliresim.com/1b/q/pgqjy.jpg" rel="nofollow">http://l1306.hizliresim.com/1b/q/pgqjy.jpg</a></p>
+<p>split grup işe yaramıyor aynı şekilde pasif.<br>
+Resimde component eklerken çıkan menüde “desintegrate component”‘i 
+denedim oldu. Bu düğmenin yanında bulunan layer seçimi “s1” ne işe 
+yarıyor?</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment byuser comment-author-gevv bypostauthor even depth-2" id="li-comment-23773"><div id="comment-23773" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2013/06/22</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=23773#respond" onclick='return addComment.moveForm( "comment-23773", "23773", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>S1 tek katlı pcb çizimde üst baskıda kullanılan kısım yani malzemenin şekli zaten kırmızı renkle belirtilmiş</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment odd alt depth-3" id="li-comment-23774"><div id="comment-23774" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Bahattin</span><time>2013/06/22</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=23774#respond" onclick='return addComment.moveForm( "comment-23774", "23774", "respond", "19926" )' aria-label="Cevap Bahattin ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Component ekleyip her hangi birisini seçtiğimizde komple o layerda çıkıyor eleman. Bir karışıklık var ama çözemedim.<br>
+Teşekkürler</p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="li-comment-25210"><div id="comment-25210" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Bahattin</span><time>2014/01/31</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=25210#respond" onclick='return addComment.moveForm( "comment-25210", "25210", "respond", "19926" )' aria-label="Cevap Bahattin ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Sn.Gevv,<br>
+qfn24 macro lazım. Araştırdım bulamadım.<br>
+Varsa sizde paylaşabilir misiniz?<br>
+Tşk.</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment odd alt depth-2" id="li-comment-25211"><div id="comment-25211" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">burhan</a></span><time>2014/01/31</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=25211#respond" onclick='return addComment.moveForm( "comment-25211", "25211", "respond", "19926" )' aria-label="Cevap burhan ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>gfn24 makro ekte bir deneyin</p>
+<p><a target="_blank" href="http://320volt.com/wp-content/uploads/2014/01/QFN24.zip" rel="nofollow">QFN24.zip</a></p>
+</div></div></li>
+	<ul class="children">
+<li class="comment even depth-3" id="li-comment-25260"><div id="comment-25260" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Bahattin</span><time>2014/02/15</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=25260#respond" onclick='return addComment.moveForm( "comment-25260", "25260", "respond", "19926" )' aria-label="Cevap Bahattin ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Burhan bey teşekkür. ediyorum.<br>
+İşime yaradı.</p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-26131"><div id="comment-26131" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2014/09/07</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=26131#respond" onclick='return addComment.moveForm( "comment-26131", "26131", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>yeni makrolar eklendi</p>
+</div></div></li>
+	<!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="li-comment-27218"><div id="comment-27218" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Hakim Lakouas</span><time>2015/02/23</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=27218#respond" onclick='return addComment.moveForm( "comment-27218", "27218", "respond", "19926" )' aria-label="Cevap Hakim Lakouas ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Thanks !</p>
+</div></div></li>
+	<!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-29593"><div id="comment-29593" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">servet bayar</span><time>2016/03/17</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=29593#respond" onclick='return addComment.moveForm( "comment-29593", "29593", "respond", "19926" )' aria-label="Cevap servet bayar ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>merhaba
+ hocam soent kılıf smd için macro lazım 16 pin entegre boyu 
+10mm.genişliği 4mm ,bulamadım oluşturamadımda acil yardımınızı rica 
+ediyorum saygılar</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment even depth-2" id="li-comment-29594"><div id="comment-29594" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2016/03/17</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=29594#respond" onclick='return addComment.moveForm( "comment-29594", "29594", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>“soent” diye bir kılıf hkkında bilgi yok  yanlış mı yazdınız acaba entegrenin adı nedir?</p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1" id="li-comment-30280"><div id="comment-30280" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Aziz Kürşat Akben</span><time>2017/02/09</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=30280#respond" onclick='return addComment.moveForm( "comment-30280", "30280", "respond", "19926" )' aria-label="Cevap Aziz Kürşat Akben ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>merhabalar. Bana FTDİ232RL TSSOP28 kılıf makrosu lazım. Nette araştırdım bulamadım. Yardımcı olabilir misiniz ?</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment even depth-2" id="li-comment-30282"><div id="comment-30282" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2017/02/09</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=30282#respond" onclick='return addComment.moveForm( "comment-30282", "30282", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>merhaba,</p>
+<p>güncelleme yapıldı</p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-30281"><div id="comment-30281" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2017/02/09</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=30281#respond" onclick='return addComment.moveForm( "comment-30281", "30281", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Yazı güncellendi yeni makrolar eklendi ayrıca SMD makro bölümünde MIX klasörüde güncelledi  FTDI232RL  dahil yeni makrolar var</p>
+</div></div></li>
+	<!-- #comment-## -->
+<li class="comment even thread-even depth-1" id="li-comment-31279"><div id="comment-31279" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person">Hasan</span><time>2018/03/06</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=31279#respond" onclick='return addComment.moveForm( "comment-31279", "31279", "respond", "19926" )' aria-label="Cevap Hasan ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Üstad tssop14 bulamadım. Yardımcı olabilir misin?</p>
+</div></div></li>
+	<ul class="children">
+<li class="comment byuser comment-author-gevv bypostauthor odd alt depth-2" id="li-comment-31280"><div id="comment-31280" style="position:relative;" itemscope="" itemtype="http://schema.org/UserComments"><div class="comment-author vcard"><div class="comment-metadata"><span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><a target="_blank" href="http://320volt.com/" rel="external nofollow" class="url">gevv</a></span><time>2018/03/06</time><span class="comment-meta"></span><span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/?replytocom=31280#respond" onclick='return addComment.moveForm( "comment-31280", "31280", "respond", "19926" )' aria-label="Cevap gevv ">Cevapla</a></span></div></div><div class="commentmetadata" itemprop="commentText"><p>Arşivde TSSOP28  var malzemeyi parçalayıp fazla ayakları silip malzemeyi tekrar  birleştirip  kullanabilirsiniz  </p>
+<p>malzeme üzerinde sağ tıklayın çıkan menüde “split group”  yapın  
+düzenleme bitince  malzemenin tünümü seçip sağ tıklayın “build group” 
+seçin</p>
+</div></div></li>
+	<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<div class="navigation bottomnav"><div class="alignleft"></div><div class="alignright"></div></div></ol></div>
+<div class="bordersperator2"></div><div id="commentsAdd"><div id="respond" class="box m-t-6">
+				<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"></h3><h4><span>Yorum Bölümü</span></h4> <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://320volt.com/sprint-layout-makro-arsivim/#respond" style="display:none;">Cevabı iptal et</a></small>			<form action="http://320volt.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">E-posta hesabınız yayımlanmayacak.</span> Gerekli alanlar <span class="required">*</span> ile işaretlenmişlerdir</p><p class="comment-form-comment"><label for="comment">Yorum:<span class="required">*</span></label><textarea id="comment" name="comment" cols="45" rows="5" aria-required="true"></textarea></p><p class="comment-form-author"><label for="author">İsim:<span class="required">*</span></label><input id="author" name="author" size="30" type="text"></p>
+<p class="comment-form-email"><label for="email">E-Posta Adresi:<span class="required">*</span></label><input id="email" name="email" size="30" type="text"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" value="yes" type="checkbox"><label for="wp-comment-cookies-consent">Yorum yaptığımda kullanılmak üzere adımı, e-posta adresimi bu tarayıcıya kaydet.</label></p>
+<p id="commentquiz" style="clear:both">
+<label for="quiz">Soru:  1N4007 Nedir? (diyot) </label><input name="quiz" id="quiz" size="22" tabindex="4" type="text">
+</p>
+<p id="lstc-comment-subscription" class="cnns-comment-subscription"><input value="1" name="lstc_subscribe" id="lstc_subscribe" type="checkbox">&nbsp;<label id="cnns-label" class="lstc-label" for="lstc_subscribe">Yeni yorumları Eposta ile bildir.</label></p><p class="form-submit"><input name="submit" id="submit" class="submit" value="Gönder" type="submit"> <input name="comment_post_ID" value="19926" id="comment_post_ID" type="hidden">
+<input name="comment_parent" id="comment_parent" value="0" type="hidden">
+</p>			</form>
+			</div><!-- #respond -->
+	</div></div>
+</article><aside class="sidebar c-4-12"><div id="sidebars" class="sidebar"><div class="sidebar_list"><ul class="pn1 group"><li class="nextt"><a href="http://320volt.com/pic16f628a-l297-l298-ile-step-motor-surucu/" rel="next"><i class="fa fa-chevron-right"></i><strong>Önce</strong> <span>PIC16F628A L297 L298 ile Step Motor Sürücü</span></a></li><li class="previoust"><a href="http://320volt.com/avr910-usb-avr-programlayici-ponyprog/" rel="prev"><i class="fa fa-chevron-left"></i><strong>Sonra</strong> <span>AVR910 USB AVR Programlayıcı (PonyProg)</span></a></li></ul>&nbsp;<li id="text-10" class="widget widget-sidebar widget_text"><div class="textwidget">
+<a target="_blank" href="http://www.direnc.net/"><img src="Docs_files/direncnet-2.gif" alt="direnc.net" title="direnc.net" width="305" height="85"></a>
+<a target="_blank" href="https://www.robolinkmarket.com/"><img src="Docs_files/robolink_banner.gif" alt="robolink teknoloji" title="robolink teknoloji" width="305" height="85"></a>
+<a target="_blank" href="http://320volt.com/iletisim/"><img src="Docs_files/300-85.png" alt="sponsor" title="sponsor" width="305" height="85"></a></div></li><li class="widget"><h3>Etiketler</h3><div class="tagcloud"><a rel="nofollow" href="http://320volt.com/tag/amplifikator-devreleri/">anfi devresi</a><a rel="nofollow" href="http://320volt.com/tag/atmel-avr-projeleri/">AVR Projeleri</a><a rel="nofollow" href="http://320volt.com/tag/microchip-pic-projeleri/">pic projeleri</a><a rel="nofollow" href="http://320volt.com/tag/arduino-projeleri/">Arduino projeleri</a><a rel="nofollow" href="http://320volt.com/tag/plc/">PLC</a><a rel="nofollow" href="http://320volt.com/tag/msp430-projeleri/">MSP430 projeleri</a><a rel="nofollow" href="http://320volt.com/tag/atx-smps/">PSU SMPS</a><a rel="nofollow" href="http://320volt.com/tag/trafo-nedir/">Trafo nedir ?</a><a rel="nofollow" href="http://320volt.com/tag/picbasic-pro/">picbasic pro</a><a rel="nofollow" href="http://320volt.com/tag/pic-programlama/">PIC programlama</a><a rel="nofollow" href="http://320volt.com/tag/arm-projeleri/">ARM Projeleri</a><a rel="nofollow" href="http://320volt.com/tag/robot-yapimi/">robot yapımı</a><a rel="nofollow" href="http://320volt.com/tag/smps/">smps</a><a rel="nofollow" href="http://320volt.com/tag/temel-elektronik/">temel elektronik</a><a rel="nofollow" href="http://320volt.com/tag/kilavuz-ders/">kılavuz ders</a></div></li><li class="widget"><div id="tabber"><ul class="tabs"><li>E-Posta Aboneliği</li></ul><div class="clear"></div><p><em>Yeni yazılar epostanıza gelsin.</em></p><div class="inside"><div id="recent-posts" class="recent-posts"> <ul><div class="mts-subscribe"><form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=320volt', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" _lpchecked="1"><input value="Eposta adresiniz..." onblur="if (this.value == '') {this.value = 'Eposta adresiniz...';}" onfocus="if (this.value == 'Eposta adresiniz...') {this.value = '';}" name="email" type="text"><input value="320volt" name="uri" type="hidden"><input name="loc" value="en_US" type="hidden"><input value="Abone Ol" type="submit"></form><div class="result"></div></div></ul></div><div class="clear"></div></div><div class="clear"></div></div></li><li class="widget"><div id="tabber"><ul class="tabs"><li>Bölümler</li></ul><div class="clear"></div><div class="inside"><div id="recent-posts" class="recent-posts"><ul><li><a href="http://320volt.com/category/yazar-projeleri-makaleler-elektronik-genel/">Yazar Projeleri</a></li> <li><a href="http://320volt.com/category/elektronik-kaynaklari/">Elektronik Kaynakları</a></li><li><a href="http://320volt.com/category/mikrodenetleyici-projeleri//">Mikrodenetleyici Projeleri</a></li><li><a href="http://320volt.com/category/programlama-test-devreleri/">Prog. test devreleri</a></li><li><a href="http://320volt.com/category/ses-elektronigi/">Ses Elektroniği</a></li><li><a href="http://320volt.com/category/guc-elektronigi/">Güç Elektroniği</a></li><li><a href="http://320volt.com/category/motor-surucu-devreleri-cnc-kontrol/">Motor Kontrol, CNC Devreleri</a></li><li><a href="http://320volt.com/category/analog-dijital-devreler-alarm-fm-rf-alici-verici/">Analog, Dijital Devreler</a></li><li><a href="http://320volt.com/category/teknik-servis-tamir-onarim-manuel-sema/">Tamir Onarım</a></li><li><a href="http://320volt.com/category/elektronik-programlar-hesaplama-cevirici-kod-vb/">Elektronik Programları</a></li><li><a href="http://320volt.com/category/pratik-bilgiler-elektronik-elektrik-mekanik/">Pratik Bilgiler Elektronik</a></li><li><a href="http://320volt.com/category/video-elektrik-elektronik-mekanik/">Teknik Videolar</a></li><li><a href="http://320volt.com/category/elektro-galeri/">Elektro Galeri</a></li><li><a href="http://320volt.com/category/genel/">Genel Konular</a></li></ul></div><div class="clear"></div></div><div class="clear"></div></div></li><li class="widget" style="margin: 0px; padding: 0px; border-width: 0px;"><div class="ad-300"><script async="" src="Docs_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; height: 254px;" data-ad-client="ca-pub-0182120847846351" data-ad-slot="9222817975" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_3_expand" style="display: inline-table; border: medium none; height: 254px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 305px; background-color: transparent;"><ins id="aswift_3_anchor" style="display: block; border: medium none; height: 254px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 305px; background-color: transparent; overflow: hidden;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_3" name="aswift_3" style="left: 0px; position: absolute; top: 0px; width: 305px; height: 254px;" width="305" height="254" frameborder="0"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></li>&nbsp;<li class="widget">	<div id="tabber">	<ul class="tabs"><li>Bağlantılar</li></ul> <div class="clear"></div><div class="inside"><div id="recent-posts" class="recent-posts"><ul><li><a href="http://320volt.com/turkce-elektronik-siteleri" target="_blank" rel="nofollow">Türkçe Elektronik</a></li><li><a href="http://www.uicroarm.com/" target="_blank">UicroArm</a></li><li><a href="http://otomot.net/" target="_blank">Otomot.Net</a></li><li><a href="http://320volt.com/yabanci-elektronik-siteleri" target="_blank" rel="nofollow">Yabancı Elektronik</a></li></ul></div><div class="clear"></div></div> <div class="clear"></div></div></li></div></div></aside></div></div><div class="copyrights"><div class="row" id="copyright-note"><div class="copyright-left-text"><a href="http://320volt.com/gizlilik-politikasi-cerez-kullanimi/">Gizlilik Politikası Çerez Kullanımı</a> - <a href="http://320volt.com/kullanim-kosullari/">Kullanım Koşulları</a> © <a href="http://320volt.com/en/" title="320volt.com english">en</a> 2006-2018 <a href="http://320volt.com/" title="elektronik">Elektronik</a> | <strong>320volt.com</strong> Türkiye`de bilişim ve elektronik ile ilgilenen Türkiye`nin gelişmesini sağlayacak insanlarımıza hizmet etmek için kurulmuştur.</div><div class="top"><a href="#top" class="toplink">&nbsp;</a></div></div></div><script type="text/javascript" src="Docs_files/comment-reply.js"></script>
+</div><style type="text/css">body {width: 10px; min-width: 100%; *width: 100%;}</style>
+
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" style="display: none;" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:NaNpx;margin:0;padding:0;position:relative;visibility:visible;width:NaNpx;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:NaNpx;margin:0;padding:0;position:relative;visibility:visible;width:NaNpx;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;width:NaNpx;height:NaNpx;" frameborder="0"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_8187684471204" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body></html>
+<!-- Dynamic page generated in 0.406 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-09-04 05:41:09 -->
+<!-- super cache -->
