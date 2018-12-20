@@ -1,0 +1,47 @@
+#####################################################
+# IO YANG DIPAKAI BARRIER
+#####################################################
+
+IN1 ANALOG INPUT 0 | KAKI 23
+IN2 ANALOG INPUT 1 | KAKI 24
+IN3 ANALOG INPUT 2 | KAKI 25
+IN4 ANALOG INPUT 3 | KAKI 26
+
+W D1 Pin3 | KAKI 5
+w D0 Pin2 | KAKI 4
+
+OUT1 pin8 | KAKI 14
+OUT2 pin7 | KAKI 13
+OUT3 pin6 | KAKI 12
+OUT4 pin5 | KAKI 11
+OUT5 pin4 | KAKI 6
+
+LED PIN9 | KAKI 15
+
+#####################################################
+# KOMPONEN PENDUKUNG
+#####################################################
+TRANSISTOR s9013
+RELAY ec25nj
+resistor led 470ohm
+opto pc817
+
+#####################################################
+# MENGESET FUSE BIT AGAR MEMAKAI CRYSTAL INTERNAL 8Mhz
+# HATI-HATI SAAT MENGETES INI JANGAN SAMPAI KELIRU
+# KARENA JIKA KELIRU IC ATMEGA8 TIDAK AKAN BISA DIPAKAI LAGI
+# MENGGUNAKAN SOFTWARE AVRDUDESS 2.4 (avrdude version 6.1)
+#####################################################
+# SET FUSE BIT
+L : 0xA4
+H : 0xD9
+LB : 0x3C
+
+
+#####################################################
+# TOOL FLASHING MENGGUNAKAN BOARD MINSYS
+# USBASP
+# ARDUINO IDE
+# BOARD ATmega8-Noxtal 8Mhz
+#####################################################
+

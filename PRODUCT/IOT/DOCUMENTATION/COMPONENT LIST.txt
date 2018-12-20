@@ -1,0 +1,21 @@
+1.) 2EDG 2PIN 8pcs
+2.) 2EDG 3PIN 2pcs
+3.) Relay Relay mini NEC EC2-5NU 5V 8 pin 8pcs
+4.) S9013 8pcs
+5.) Ams1117 3.3v 1pc
+6.) ESP01 1pc
+7.) 22pf 2pc 
+8.) Crystal 16Mhz
+7.) LED 9pcs
+8.) Buzzer 1pc
+9.) DC Connector Female PCB
+10.) Diode 1n4007 1pc
+11.) Resistor 10k 2pcs
+12.) Resistor 33Ohm 1pc
+13.) Receiver RF 433Mhz 1pc
+14.) Resistor 15k 9pcs
+15.) Resistor 100 Ohm 10pcs
+16.) Module XL6009 DC Adjustable 1pc
+17.) Elco 220uf 25v 1pc
+18.) Tulang Ikan Female
+19.) IC ATMEGA8
