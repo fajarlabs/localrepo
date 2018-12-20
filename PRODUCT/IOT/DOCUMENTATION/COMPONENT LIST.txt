@@ -14,8 +14,9 @@
 12.) Resistor 33Ohm 1pc
 13.) Receiver RF 433Mhz 1pc
 14.) Resistor 15k 9pcs
-15.) Resistor 100 Ohm 10pcs
+15.) Resistor 100 Ohm 9pcs
 16.) Module XL6009 DC Adjustable 1pc
 17.) Elco 220uf 25v 1pc
 18.) Tulang Ikan Female
 19.) IC ATMEGA8
+20.) Resistor 1k 1pc
