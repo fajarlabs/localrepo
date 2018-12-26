@@ -30,11 +30,12 @@ import os
 from urllib.parse import urlparse
 
 # akun pada cloudmqtt
+# instance device-6e5c4b13-357f-4a56-abb9-a22a23f2e505	
 username = 'hhrblzkj'
 password = '5fDMVfZA3RM3'
 server = 'm15.cloudmqtt.com'
 port = '15944'
-topic = 'DataClient1'
+topic = 'data-6e5c4b13-357f-4a56-abb9-a22a23f2e505'
 connectedMessage = topic+' is ready'
 
 # Define event callbacks

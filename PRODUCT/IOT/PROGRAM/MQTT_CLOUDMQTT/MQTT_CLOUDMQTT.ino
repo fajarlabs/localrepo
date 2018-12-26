@@ -2,11 +2,12 @@
 #include <PubSubClient.h>
  
 const char* ssid         = "INFINET";
-const char* password     = "satuduatiga";
+const char* password     = "thxtoalloh";
 const char* mqttServer   = "m15.cloudmqtt.com";
-const int mqttPort       = 17563;
-const char* mqttUser     = "ulzfyypz";
-const char* mqttPassword = "ID_d2Gbu91eV";
+const int mqttPort       = 15944;
+const char* mqttUser     = "hhrblzkj";
+const char* mqttPassword = "5fDMVfZA3RM3";
+const char* send_recv_topic = "data-6e5c4b13-357f-4a56-abb9-a22a23f2e505";
  
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -25,22 +26,17 @@ void setup() {
  
   while (!client.connected()) {
     Serial.println("Connecting to MQTT...");
- 
     if (client.connect("ESP8266Client", mqttUser, mqttPassword )) {
- 
       Serial.println("connected");  
- 
     } else {
- 
       Serial.print("failed with state ");
       Serial.print(client.state());
       delay(2000);
- 
     }
   }
  
-  client.publish("esp/test", "Hello from ESP8266");
-  client.subscribe("esp/test");
+  client.publish(send_recv_topic, "device-6e5c4b13-357f-4a56-abb9-a22a23f2e505 OK");
+  client.subscribe(send_recv_topic);
  
 }
  
